@@ -1,63 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login</title>
-	<style>
-		body {
-			background-image: url('pai2.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center center;
-			background-attachment: fixed;
-			margin: 0;
-			padding: 0;
-			font-family: sans-serif;
-		}
-
-		.container {
-			width: 100%;
-			height: 100vh;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		form {
-			background-color: #fff;
-			padding: 20px;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-			max-width: 400px;
-			width: 100%;
-			text-align: center;
-		}
-
-		h1 {
-			margin-top: 0;
-			color: #333;
-		}
-
-		input[type="text"],
-		input[type="password"] {
-			display: block;
-			width: 100%;
-			padding: 10px;
-			border: none;
-			border-radius: 5px;
-			margin-bottom: 10px;
-			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-		}
-	</style>
 </head>
+
+<style> /* estilo da main */
+body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: aliceblue;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+@media only screen and (max-width: 768px) {
+  /* ajuste a posição da logo para telas menores */
+
+}
+
+</style>
+
+<style> /* Estilo dentro do form */
+	
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+	color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+</style>
+
+<style> /* estilo do background em main */
+.fundo {
+  height: 100%;
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#sky-stars-main-img{
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+}
+
+#logo-main{
+  position: relative;
+  z-index: 4;
+  width: 100%;
+}
+
+#solid-transparent-collor{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.436);
+  z-index: 3;
+  border-radius: 50px 0px 0px 50px;
+}
+
+</style>
+
 <body>
-	<div class="container">
-		<form action="pagina_secundaria.html">
-			<h1>Tela de Login</h1>
-			<input type="text" placeholder="Usuario">
-			<input type="password" placeholder="Senha">
-			<button><a href="pagina_secundaria.html">Entrar</a>
-            <button><a href="pagina_registro.html">Registrar</a>
-		</form>
-	</div>
+	<header>
+
+	</header>
+	<main>
+		<div class="container">
+			<form action="pagina_secundaria.html">
+				<h1>Tela de Login</h1>
+				<input type="text" placeholder="Usuario">
+				<input type="password" placeholder="Senha">
+				<button><a href="pagina_secundaria.html">Entrar</a>
+				<button><a href="pagina_registro.html">Registrar</a>
+			</form>
+		</div>
+		<div class="fundo">
+			<div id="solid-transparent-collor"></div>
+			<img src="img\1 - main-login.jpg" alt="stars in a sky" id="sky-stars-main-img">
+			<img src="img\2 - logo.png" alt="logo in main" id="logo-main">
+		</div>
+	</main>
+	<footer>
+
+	</footer>
 </body>
 </html>
