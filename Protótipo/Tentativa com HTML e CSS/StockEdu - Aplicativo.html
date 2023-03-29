@@ -23,8 +23,9 @@ main {
 	align-items: center;
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	background-color: aliceblue;
+	z-index: 0;
 }
 
 .container {
@@ -36,15 +37,10 @@ main {
 	
 }
 
-@media only screen and (max-width: 768px) {
-/* ajuste a posição da logo para telas menores */
-
-}
-
 </style>
 
 <style> /* estilo do background em main */
-.fundo {
+.fundo-desktop {
 	height: 100%;
 	width: 45%;
 	position: relative;
@@ -58,13 +54,7 @@ main {
 #sky-stars-main-img{
 	position: absolute;
 	height: 100%;
-	z-index: 2;
-}
-
-#logo-main{
-	position: relative;
-	z-index: 4;
-	width: 100%;
+	z-index: 3;
 }
 
 #solid-transparent-collor{
@@ -77,8 +67,22 @@ main {
 	border-color: aliceblue;
 	border-width: 5px;
 	border-style: solid;
-	z-index: 3;
+	z-index: 4;
 	border-radius: 50px 0px 0px 50px;
+}
+
+#logo-main{
+	position: relative;
+	z-index: 5;
+	width: 100%;
+}
+
+@media (max-width:1115px) {
+
+	.fundo-desktop{
+		display: none;
+	}
+
 }
 
 </style>
@@ -111,19 +115,10 @@ form {
 	margin-bottom: 2vh;
 }
 
-h2 {
-	color: #333;
-	margin-bottom: 0;
-	font-size: 18px;
-	font-variant-caps: petite-caps;
-}
-
-h1{
-	margin-top: 0;
-	margin-bottom: 5vh;
-	font-weight:800;
-	font-size: 35px;
-	font-variant-caps: petite-caps;
+#bem-vindo-mensagem{
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 45px;
 }
 
 input[type="text"],
@@ -135,6 +130,9 @@ input[type="password"] {
 	border-radius: 5px;
 	margin-bottom: 10px;
 	box-shadow: 0 0 5px rgba(2, 25, 45, 0.12);
+	border-style: solid;
+    border-width: 1px;
+    border-color: #0c5cbc;
 }
 
 #botoes-main{
@@ -177,24 +175,34 @@ input[type="password"] {
 	transition: 0.5s;
 }
 
+#entrar-botao-style:active{
+	background-color: #5ca0f3;
+	transition: 0.5ms;
+}
+
+
+@media (max-width:1115px) {
+
+	#botoes-main{
+		flex-direction: column-reverse;
+	}
+
+	#pagina-secundaria-a{
+		margin-bottom: 25px;
+	}
+
+}
+
 </style>
 
 
 <body>
-	<header>
-
-	</header>
 	<main>
 		<div class="container">
 			<form action="pagina_secundaria.html">
 				<img id="logo-completa"src="img\3 - Logo-Completa.png" alt="logo-completa-inside-form">
 				<hr id="hr-entre-imagem-h2">
-				<h2>
-					Bem-vindo ao seu app de Gerenciamento Escolar
-				</h2>
-				<h1>
-					Número 1 em Excelência!
-				</h1>
+				<img id="bem-vindo-mensagem" src="img\bem-vindo-mensagem.svg" alt="bem-vindo-mensagem">
 				<input type="text" placeholder="Usuario">
 				<input type="password" placeholder="Senha">
 				<div id="botoes-main">
@@ -209,14 +217,11 @@ input[type="password"] {
 				</div>
 			</form>
 		</div>
-		<div class="fundo">
+		<div class="fundo-desktop">
 			<div id="solid-transparent-collor"></div>
 			<img src="img\1 - main-login.jpg" alt="stars in a sky" id="sky-stars-main-img">
 			<img src="img\2 - logo.png" alt="logo in main" id="logo-main">
 		</div>
 	</main>
-	<footer>
-
-	</footer>
 </body>
 </html>
