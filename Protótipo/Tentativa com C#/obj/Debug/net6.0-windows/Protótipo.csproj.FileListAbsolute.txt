@@ -20,3 +20,10 @@ C:\Users\pedro\Desktop\Projeto\Protótipo\obj\Debug\net6.0-windows\Protótipo.pd
 C:\Users\pedro\Desktop\Projeto\Protótipo\obj\Debug\net6.0-windows\Protótipo.genruntimeconfig.cache
 C:\Users\pedro\Desktop\Projeto\Protótipo\obj\Debug\net6.0-windows\ref\Protótipo.dll
 C:\Users\pedro\Desktop\Projeto\Protótipo\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\Protótipo.csproj.AssemblyReference.cache
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\Protótipo_MarkupCompile.cache
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\Protótipo_MarkupCompile.lref
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\Protótipo.dll
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\refint\Protótipo.dll
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\Protótipo.pdb

@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\pedro\Desktop\Projeto\Protótipo\obj\Debug\net6.0-windows\
+C:\Users\pedro\Desktop\PIM-IV-UNIP\Protótipo\Tentativa com C#\obj\Debug\net6.0-windows\
 Protótipo
 none
 false
@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 194-1617825143
 MainWindow.xaml;
 
-True
+False
 

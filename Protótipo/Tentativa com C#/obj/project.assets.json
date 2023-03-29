@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\Desktop\\Projeto\\Protótipo\\Protótipo.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\Desktop\\PIM-IV-UNIP\\Protótipo\\Tentativa com C#\\Protótipo.csproj",
       "projectName": "Protótipo",
-      "projectPath": "C:\\Users\\pedro\\Desktop\\Projeto\\Protótipo\\Protótipo.csproj",
+      "projectPath": "C:\\Users\\pedro\\Desktop\\PIM-IV-UNIP\\Protótipo\\Tentativa com C#\\Protótipo.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\Desktop\\Projeto\\Protótipo\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\Desktop\\PIM-IV-UNIP\\Protótipo\\Tentativa com C#\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
