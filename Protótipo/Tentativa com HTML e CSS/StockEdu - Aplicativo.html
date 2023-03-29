@@ -7,7 +7,7 @@
 	<title>Login</title>
 </head>
 
-<style> /* estilo da main */
+<style> /* Itens básicos */
 body {
 	height: 100vh;
 	width: 100%;
@@ -37,26 +37,93 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
-  /* ajuste a posição da logo para telas menores */
+/* ajuste a posição da logo para telas menores */
 
 }
 
 </style>
 
-<style> /* Estilo dentro do form */
-	
-form {
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	width: 100%;
-	text-align: center;
+<style> /* estilo do background em main */
+.fundo {
+	height: 100%;
+	width: 45%;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50px 0px 0px 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-h1 {
-	margin-top: 0;
+#sky-stars-main-img{
+	position: absolute;
+	height: 100%;
+	z-index: 2;
+}
+
+#logo-main{
+	position: relative;
+	z-index: 4;
+	width: 100%;
+}
+
+#solid-transparent-collor{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background-color: #0c5bbc75;
+	border-color: aliceblue;
+	border-width: 5px;
+	border-style: solid;
+	z-index: 3;
+	border-radius: 50px 0px 0px 50px;
+}
+
+</style>
+
+<style> /* Estilo dentro do form */
+
+form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(2, 25, 45, 0.12);
+	width: 50%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo-completa{
+	width: 50%;
+	margin-bottom: 2vh;
+}
+
+#hr-entre-imagem-h2{
+	border-width: 1px ;
+	border-color: #0c5cbc;
+	border-style: solid;
+	width: 90%;
+	margin-bottom: 2vh;
+}
+
+h2 {
 	color: #333;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-variant-caps: petite-caps;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 5vh;
+	font-weight:800;
+	font-size: 35px;
+	font-variant-caps: petite-caps;
 }
 
 input[type="text"],
@@ -67,46 +134,51 @@ input[type="password"] {
 	border: none;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 5px rgba(2, 25, 45, 0.12);
 }
+
+#botoes-main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 80%;
+}
+
+#pagina-registro-a{
+	color: #333;
+	font-weight: 500;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#pagina-secundaria-a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#entrar-botao-style{
+	background-color: #0c5cbc;
+	color: aliceblue;
+	font-weight: 900;
+	height: 40px;
+	width: 150px;
+	display: inline-block;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#entrar-botao-style:hover{
+	background-color: #277be2;
+	transition: 0.5s;
+}
+
 </style>
 
-<style> /* estilo do background em main */
-.fundo {
-  height: 100%;
-  width: 45%;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50px 0px 0px 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#sky-stars-main-img{
-  position: absolute;
-  height: 100%;
-  z-index: 2;
-}
-
-#logo-main{
-  position: relative;
-  z-index: 4;
-  width: 100%;
-}
-
-#solid-transparent-collor{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
-  background-color: rgba(0, 0, 255, 0.436);
-  z-index: 3;
-  border-radius: 50px 0px 0px 50px;
-}
-
-</style>
 
 <body>
 	<header>
@@ -115,11 +187,26 @@ input[type="password"] {
 	<main>
 		<div class="container">
 			<form action="pagina_secundaria.html">
-				<h1>Tela de Login</h1>
+				<img id="logo-completa"src="img\3 - Logo-Completa.png" alt="logo-completa-inside-form">
+				<hr id="hr-entre-imagem-h2">
+				<h2>
+					Bem-vindo ao seu app de Gerenciamento Escolar
+				</h2>
+				<h1>
+					Número 1 em Excelência!
+				</h1>
 				<input type="text" placeholder="Usuario">
 				<input type="password" placeholder="Senha">
-				<button><a href="pagina_secundaria.html">Entrar</a>
-				<button><a href="pagina_registro.html">Registrar</a>
+				<div id="botoes-main">
+					<a id="pagina-registro-a" href="pagina_registro.html">
+						Registrar
+					</a>
+					<a id="pagina-secundaria-a" href="pagina_secundaria.html">
+						<div id="entrar-botao-style">
+							Entrar
+						</div>
+					</a>
+				</div>
 			</form>
 		</div>
 		<div class="fundo">
