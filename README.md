@@ -3,9 +3,10 @@
 <br>
 
 <center>
+
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
-R Markdown postado `<u>`[Aqui](https://github.com/albertosdneto/pim5)`</u>`
+R Markdown postado <u>[Aqui](https://github.com/albertosdneto/pim5)</u>
 
 </center>
 
