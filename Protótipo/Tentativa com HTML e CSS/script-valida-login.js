@@ -14,7 +14,7 @@ function validarFormulario(event) {
   // Verifica se o usuário é válido
   if (usuario.value === 'usuario1' && senha.value === 'senha1') {
     // Redireciona para a página principal se o usuário for válido
-    window.location.href = 'pagina-principal.html';
+    window.location.href = 'pagina_secundaria.html';
   } else if (usuario.value === 'usuario2' && senha.value === 'senha2') {
     // Redireciona para a página de perfil se o usuário for válido
     window.location.href = 'perfil.html';

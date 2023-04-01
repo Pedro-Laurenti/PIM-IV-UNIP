@@ -1,6 +1,6 @@
-PWD c:\Users\pedro\Desktop\Projeto\Documentação\Doc
+PWD c:\Users\pedro\Desktop\PIM-IV-UNIP\Documentação\Doc
 INPUT C:\Users\pedro\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\pedro\Desktop\Projeto\Documentação\Doc\PIM V.tex
+INPUT c:\Users\pedro\Desktop\PIM-IV-UNIP\Documentação\Doc\PIM V.tex
 OUTPUT PIM V.log
 INPUT C:\MikTex\tex\latex\abntex2\abntex2.cls
 INPUT C:\MikTex\tex\latex\abntex2\abntex2.cls
@@ -892,7 +892,6 @@ INPUT C:\MikTex\tex\latex\lm\omxlmex.fd
 INPUT C:\MikTex\tex\latex\lm\omxlmex.fd
 INPUT C:\MikTex\tex\latex\lm\omxlmex.fd
 INPUT C:\MikTex\fonts\tfm\public\lm\lmex10.tfm
-INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmss10.tfm
@@ -905,10 +904,10 @@ INPUT C:\MikTex\fonts\tfm\public\lm\lmmi5.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\lmsy7.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\lmsy5.tfm
-INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmss17.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmri12.tfm
+INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmss17.tfm
+INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr7.tfm
 INPUT .\PIM V.lof
 INPUT PIM V.lof
@@ -960,8 +959,6 @@ INPUT C:\MikTex\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\MikTex\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\MikTex\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\MikTex\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\MikTex\fonts\type1\public\lm\lmbx10.pfb
-INPUT C:\MikTex\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\MikTex\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\MikTex\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\MikTex\fonts\type1\public\lm\lmmi12.pfb
