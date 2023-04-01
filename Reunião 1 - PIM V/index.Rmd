@@ -229,6 +229,64 @@ Framework utilizado: Flutter/Dart.
 
 > Vale ressaltar que este grupo estava no mesmo período que o nosso, e já estavam utilizando outras linguagens e tecnologias (desenvolvimento Web).
 
+# Tutorial: Github pelo CMD
+
+Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha de comando), siga os seguintes passos:
+
+1. Abra o terminal (CMD) e navegue até o diretório do seu repositório local usando o comando `cd` (change directory). Por exemplo:
+
+```bash
+    cd C:\Users\NomeDoUsuario\Documents\MeuRepositorio
+```
+
+<br>
+
+2. Certifique-se de que você está na branch correta usando o comando `git branch`. Por exemplo:
+
+```bash
+    git branch
+```
+
+<br>
+
+3. Certifique-se de que seu repositório local está sincronizado com o repositório remoto usando o comando `git pull`. Por exemplo:
+
+```bash
+    git pull origin NomeDaBranch
+```
+
+<br>
+
+4. Adicione o arquivo corrigido usando o comando `git add` ou `git add .` (adiciona todos os arquivos modificados). Por exemplo:
+
+```bash
+    git add NomeDoArquivoCorrigido
+```
+
+<br>
+
+5. Confirme as mudanças usando o comando `git commit`. Por exemplo:
+
+```bash
+    git commit -m "Mensagem de confirmação"
+```
+
+<br>
+
+6. Envie as alterações para o repositório remoto usando o comando `git push`. Por exemplo:
+
+```bash
+    git push origin NomeDaBranch
+```
+
+Agora o seu novo arquivo corrigido foi adicionado ao repositório Github pelo CMD. Lembre-se de que esses comandos são apenas um exemplo e podem variar dependendo da sua configuração específica.
+
+<br>
+
+---
+
+<br>
+
 # Considerações finais
 
 Agradeço a disposição de todos neste projeto, espero que façamos história com o mesmo.

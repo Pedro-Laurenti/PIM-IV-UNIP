@@ -215,9 +215,9 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 <div align="center" style="display:flex; flex-direction:row;">
 
-<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png" alt="drawing" width="20%"/>
+<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png" alt="drawing" width="40%"/>
 
-<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png" alt="drawing" width="20%"/>
+<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png" alt="drawing" width="40%"/>
 
 </div>
 
@@ -239,7 +239,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 
 1. Abra o terminal (CMD) e navegue até o diretório do seu repositório local usando o comando `cd` (change directory). Por exemplo:
 
-```cmd
+```bash
     cd C:\Users\NomeDoUsuario\Documents\MeuRepositorio
 ```
 
@@ -247,7 +247,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 
 2. Certifique-se de que você está na branch correta usando o comando `git branch`. Por exemplo:
 
-```cmd
+```bash
     git branch
 ```
 
@@ -255,7 +255,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 
 3. Certifique-se de que seu repositório local está sincronizado com o repositório remoto usando o comando `git pull`. Por exemplo:
 
-```cmd
+```bash
     git pull origin NomeDaBranch
 ```
 
@@ -263,7 +263,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 
 4. Adicione o arquivo corrigido usando o comando `git add` ou `git add .` (adiciona todos os arquivos modificados). Por exemplo:
 
-```cmd
+```bash
     git add NomeDoArquivoCorrigido
 ```
 
@@ -271,7 +271,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 
 5. Confirme as mudanças usando o comando `git commit`. Por exemplo:
 
-```cmd
+```bash
     git commit -m "Mensagem de confirmação"
 ```
 
@@ -279,7 +279,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 
 6. Envie as alterações para o repositório remoto usando o comando `git push`. Por exemplo:
 
-```cmd
+```bash
     git push origin NomeDaBranch
 ```
 
