@@ -178,54 +178,11 @@ indica na tabela a seguir:
 
 <center>
 
-| Estrutura     | Elemento                                                                                                                                                              
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Pré-textuais  | Capa
-                 Lombada
-                 Folha de rosto
-                 Errata
-                 Folha de aprovação
-                 Dedicatória
-                 Agradecimentos
-                 Epígrafe
-                 Resumo
-                 Resumo em língua estrangeira
-                 Sumário
-                 Lista de ilustrações
-                 Lista de tabelas
-                 Lista de abreviaturas e siglas
-                 Lista de símbolos
-| Condição      | Obrigatório
-                 Opcional
-                 Obrigatório
-                 Opcional
-                 Opcional
-                 Opcional
-                 Opcional
-                 Opcional
-                 Obrigatório
-                 Obrigatório
-                 Obrigatório
-                 Opcional
-                 Opcional
-                 Opcional
-                 Opcional
-| Textuais      | Introdução
-                 Desenvolvimento
-                 Conclusão                                                                                                                             
-| Condição      | Obrigatório
-                 Obrigatório
-                 Obrigatório                                                                                                                      
-| Pós-textuais  | Referências
-                 Glossário
-                 Apêndice
-                 Anexo
-                 Índice(s)                                                                                                           
-| Condição      | Obrigatório
-                 Opcional
-                 Opcional
-                 Opcional
-                 Opcional
+| Estrutura     | Condição      | Elemento                                                                                                        |
+|---------------|---------------|-----------------------------------------------------------------------------------------------------------------|
+| Pré-textuais  | Obrigatório   | Capa<br> Lombada<br> Folha de rosto<br> Errata<br> Folha de aprovação<br> Dedicatória<br> Agradecimentos<br> Epígrafe<br> Resumo<br> Resumo em língua estrangeira<br> Sumário<br> Lista de ilustrações<br> Lista de tabelas<br> Lista de abreviaturas e siglas<br> Lista de símbolos<br> |
+| Textuais      | Obrigatório   | Introdução<br> Desenvolvimento<br> Conclusão<br>                                                                  |
+| Pós-textuais  | Obrigatório   | Referências<br> Glossário<br> Apêndice<br> Anexo<br> Índice(s)<br>                                              |
 
 
 </center>
