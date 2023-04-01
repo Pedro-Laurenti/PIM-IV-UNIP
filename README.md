@@ -2,7 +2,7 @@
 
 <br>
 
-<center>
+<center style="display: block; margin: 0 auto; width: 100%;">
 
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
@@ -178,11 +178,55 @@ indica na tabela a seguir:
 
 <center>
 
-| Estrutura     |                                                                                                                                                                    Elemento                                                                                                                                                                    |                                                                                                                                                                                                                                                           Condição |
-| ------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Pré-textuais | Capa`<br>`Lombada`<br>`Folha de rosto`<br>`Errata`<br>`Folha de aprovação`<br>`Dedicatória`<br>`Agradecimentos`<br>`Epígrafe`<br>`Resumo`<br>`Resumo em língua estrangeira`<br>`Sumário`<br>`Lista de ilustrações`<br>`Lista de tabelas`<br>`Lista de abreviaturas e siglas`<br>`Lista de símbolos`<br>` | Obrigatório`<br>`Opcional`<br>`Obrigatório`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Obrigatório`<br>`Obrigatório`<br>`Obrigatório`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>` |
-| Textuais      |                                                                                                                                          Introdução`<br>`Desenvolvimento`<br>`Conclusão`<br>`                                                                                                                                          |                                                                                                                                                                                                                             Obrigatório`<br>`Obrigatório`<br>` |
-| Pós-textuais |                                                                                                                             Referências`<br>`Glossário`<br>`Apêndice`<br>`Anexo`<br>`Índice(s)`<br>`                                                                                                                             |                                                                                                                                                                                 Obrigatório`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>` |
+| Estrutura     | Elemento                                                                                                                                                              
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Pré-textuais  | Capa
+                 Lombada
+                 Folha de rosto
+                 Errata
+                 Folha de aprovação
+                 Dedicatória
+                 Agradecimentos
+                 Epígrafe
+                 Resumo
+                 Resumo em língua estrangeira
+                 Sumário
+                 Lista de ilustrações
+                 Lista de tabelas
+                 Lista de abreviaturas e siglas
+                 Lista de símbolos
+| Condição      | Obrigatório
+                 Opcional
+                 Obrigatório
+                 Opcional
+                 Opcional
+                 Opcional
+                 Opcional
+                 Opcional
+                 Obrigatório
+                 Obrigatório
+                 Obrigatório
+                 Opcional
+                 Opcional
+                 Opcional
+                 Opcional
+| Textuais      | Introdução
+                 Desenvolvimento
+                 Conclusão                                                                                                                             
+| Condição      | Obrigatório
+                 Obrigatório
+                 Obrigatório                                                                                                                      
+| Pós-textuais  | Referências
+                 Glossário
+                 Apêndice
+                 Anexo
+                 Índice(s)                                                                                                           
+| Condição      | Obrigatório
+                 Opcional
+                 Opcional
+                 Opcional
+                 Opcional
+
 
 </center>
 
