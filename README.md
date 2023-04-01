@@ -284,6 +284,6 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 - Integrantes:
   - Pedro José Laurenti de Matos (RA:0621134)
   - Cleverson Souza (RA: 0620885)
-  - Luiz Gustavo (RA: ??)
+  - Luiz Gustavo (RA: 0618130)
   - Fernando de Sampaio Steimback Vidal (RA: 0626729)
   - Larissa Tamires de Araujo Nascimento (RA: 0622906)
