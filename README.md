@@ -5,7 +5,8 @@
 <center>
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
-R Markdown postado <u>[Aqui](https://github.com/albertosdneto/pim5)</u>
+R Markdown postado `<u>`[Aqui](https://github.com/albertosdneto/pim5)`</u>`
+
 </center>
 
 <br>
@@ -19,6 +20,7 @@ __Prazo de entrega: 2 semanas__
 </center>
 
 ## Contextualização do caso
+
 O Colégio Vencer Sempre disponibiliza equipamentos de informática e vídeo (tais como
 datashow, TV com VCR, TV com DVD, projetor de slides, sistemas de áudio-microfone, caixa
 amplificada, notebooks, kits multimídia etc.), como ferramentas de apoio para aulas e
@@ -35,41 +37,40 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
 
 # Linha do tempo de atividades
 
-
 1. Mercado e Economia:
-    - [ ]  &nbsp; Levantamento dos principais agentes econômicos.
-      - identificação dos atores econômicos envolvidos com a empresa fornecedora do software e seus respectivos papéis no mercado.
-    - [ ]  &nbsp; Estudo de viabilidade econômica para a implementação do projeto.
-      - análise financeira do projeto de software, levando em consideração o investimento necessário, o prazo de retorno do investimento e outros aspectos econômicos relevantes.
+   - [ ] &nbsp; Levantamento dos principais agentes econômicos.
+     - identificação dos atores econômicos envolvidos com a empresa fornecedora do software e seus respectivos papéis no mercado.
+   - [ ] &nbsp; Estudo de viabilidade econômica para a implementação do projeto.
+     - análise financeira do projeto de software, levando em consideração o investimento necessário, o prazo de retorno do investimento e outros aspectos econômicos relevantes.
 
 <br>
 
 2. Engenharia de Software II:
-    - [ ] &nbsp; Requisitos funcionais.
-      - Descrição dos serviços que o software deve fornecer;
-      - Funcionalidades específicas que o software deve possuir para atender aos requisitos  do cliente ou do usuário final;
-      - Qual metodologia a ser utilizada; 
-      - Elaborar um planejamento de teste para os requisitos funcionais e descreva um roteiro de testes para os requisitos mencionados;
-    - [ ] &nbsp; Requisitos não funcionais.
-      - Restrições técnicas e de desempenho que o software deve atender;
-      - Requisitos de segurança, confiabilidade e disponibilidade do sistema;
-      - Regulamentações e normas que devem ser respeitadas.
-    - [ ] &nbsp; Requisitos de negócios.
-      - Objetivos do negócio que o software deve atender;
-      - Requisitos relacionados a custo, orçamento e tempo de desenvolvimento do software;
-      - Expectativas de retorno do investimento e de lucratividade do projeto.
+   - [ ] &nbsp; Requisitos funcionais.
+     - Descrição dos serviços que o software deve fornecer;
+     - Funcionalidades específicas que o software deve possuir para atender aos requisitos  do cliente ou do usuário final;
+     - Qual metodologia a ser utilizada;
+     - Elaborar um planejamento de teste para os requisitos funcionais e descreva um roteiro de testes para os requisitos mencionados;
+   - [ ] &nbsp; Requisitos não funcionais.
+     - Restrições técnicas e de desempenho que o software deve atender;
+     - Requisitos de segurança, confiabilidade e disponibilidade do sistema;
+     - Regulamentações e normas que devem ser respeitadas.
+   - [ ] &nbsp; Requisitos de negócios.
+     - Objetivos do negócio que o software deve atender;
+     - Requisitos relacionados a custo, orçamento e tempo de desenvolvimento do software;
+     - Expectativas de retorno do investimento e de lucratividade do projeto.
 
 <br>
 
 3. Projeto de Interface com o Usuário:
-    - [ ]  &nbsp; Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
-    - [ ]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
+   - [ ] &nbsp; Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
+   - [ ] &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
 
 <br>
 
 1. Programação Orientada a Objetos I:
-    - [ ]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
-    - [ ]  &nbsp; Identificar estes elementos técnicos em seu sistema.
+   - [ ] &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
+   - [ ] &nbsp; Identificar estes elementos técnicos em seu sistema.
 
 <br>
 
@@ -116,11 +117,12 @@ Dentro dos requisitos funcionais decidiremos a arquitetura básica do aplicativo
 <center>
 
 ![](/Reuni%C3%A3o%201%20-%20PIM%20V/diagrama.svg)
-Para editar <u>[clique aqui](https://app.diagrams.net)</u>.
+Para editar `<u>`[clique aqui](https://app.diagrams.net)`</u>`.
 
 </center>
 
 ### Testes
+
 Devemos elaborar um planejamento de testes para esses requisitos funcionais serem aprovados.
 Seria algo semelhante à função de "Beta tester".
 
@@ -139,11 +141,13 @@ Um exemplo de requisito não funcional seria a necessidade de um software bancá
 <br>
 
 ## Requisitos de negócios
+
 Objetivos do negócio que o software deve atender; Requisitos relacionados a custo, orçamento e tempo de desenvolvimento do software; Expectativas de retorno do investimento e de lucratividade do projeto.
 
 <br>
 
 # 3. Projeto de Interface com o Usuário
+
 Um protótipo visa definir o que o programador de front-end faz, ele serve para definir a interface.
 
 Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
@@ -156,13 +160,14 @@ Ao desenvolver, precisamos listar as INTERAÇÕES com o usuário - printar de pr
 
 Aqui devemos informar o que é a programação orientada ao objeto, sem aplicar a nenhum caso. É um texto **puramente técnico** nessa parte.
 
-Logo após classificar a programação orientada a objetos, devemos aplicar esse conceito no nosso projeto. 
+Logo após classificar a programação orientada a objetos, devemos aplicar esse conceito no nosso projeto.
 
 Aqui vale ressaltar que podemos ou não programar, podemos muito bem indicar uma programação hipotética.
 
 <br>
 
 # Documentação
+
 A estrutura do trabalho acadêmico (dissertação, tese, monografia, trabalho de conclusão
 de curso e similares) definida na NBR-14724:2002 (com vigência a partir de 29.09.2002)
 deve contemplar os elementos pré-textuais, textuais e pós-textuais, de acordo com que se
@@ -172,17 +177,18 @@ indica na tabela a seguir:
 
 <center>
 
-| Estrutura |      Elemento     |  Condição |
-|----------|:-------------:|------:|
-| Pré-textuais |  Capa<br>Lombada<br>Folha de rosto<br>Errata<br>Folha de aprovação<br>Dedicatória<br>Agradecimentos<br>Epígrafe<br>Resumo<br>Resumo em língua estrangeira<br>Sumário<br>Lista de ilustrações<br>Lista de tabelas<br>Lista de abreviaturas e siglas<br>Lista de símbolos<br> | Obrigatório<br>Opcional<br>Obrigatório<br>Opcional<br>Opcional<br>Opcional<br>Opcional<br>Opcional<br>Obrigatório<br>Obrigatório<br>Obrigatório<br>Opcional<br>Opcional<br>Opcional<br>Opcional<br> |
-| Textuais |    Introdução<br>Desenvolvimento<br>Conclusão<br>   |   Obrigatório<br>Obrigatório<br> |
-| Pós-textuais | Referências<br>Glossário<br>Apêndice<br>Anexo<br>Índice(s)<br> | Obrigatório<br>Opcional<br>Opcional<br>Opcional<br>Opcional<br> |
+| Estrutura     |                                                                                                                                                                    Elemento                                                                                                                                                                    |                                                                                                                                                                                                                                                           Condição |
+| ------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Pré-textuais | Capa`<br>`Lombada`<br>`Folha de rosto`<br>`Errata`<br>`Folha de aprovação`<br>`Dedicatória`<br>`Agradecimentos`<br>`Epígrafe`<br>`Resumo`<br>`Resumo em língua estrangeira`<br>`Sumário`<br>`Lista de ilustrações`<br>`Lista de tabelas`<br>`Lista de abreviaturas e siglas`<br>`Lista de símbolos`<br>` | Obrigatório`<br>`Opcional`<br>`Obrigatório`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Obrigatório`<br>`Obrigatório`<br>`Obrigatório`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>` |
+| Textuais      |                                                                                                                                          Introdução`<br>`Desenvolvimento`<br>`Conclusão`<br>`                                                                                                                                          |                                                                                                                                                                                                                             Obrigatório`<br>`Obrigatório`<br>` |
+| Pós-textuais |                                                                                                                             Referências`<br>`Glossário`<br>`Apêndice`<br>`Anexo`<br>`Índice(s)`<br>`                                                                                                                             |                                                                                                                                                                                 Obrigatório`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>`Opcional`<br>` |
 
 </center>
 
 <br>
 
 ## Sobre o uso de LaTex
+
 O uso de latex facilita muito a vida de escrita de documentos ABNT, desta forma apenas precisaremos prestar atenção no conteúdo, sem nos preucuparmos com a diagramação.
 
 O uso de latex não só é permitido em **qualquer** trabalho acadêmico quanto é muito bem visto pelas instituições de ensino, sendo que a simples adesão da logo no início já é motivo de pontos extras.
@@ -190,6 +196,7 @@ O uso de latex não só é permitido em **qualquer** trabalho acadêmico quanto 
 O LaTex é o compilador oficial de documentos científicos, sendo que em algumas empresas de engenharia e tecnologia tornam ele **obrigatório** nos documentos.
 
 # Análise de similares
+
 Para qualquer desenvolvimento, um dos primeiros passos é analizar a concorrencia e o histórico do produto.
 
 <br>
@@ -261,6 +268,7 @@ Para adicionar um novo arquivo corrigido ao repositório Github pelo CMD (linha 
 ```cmd
     git commit -m "Mensagem de confirmação"
 ```
+
 <br>
 
 6. Envie as alterações para o repositório remoto usando o comando `git push`. Por exemplo:
@@ -284,6 +292,6 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 - Integrantes:
   - Pedro José Laurenti de Matos (RA:0621134)
   - Cleverson Souza (RA: 0620885)
-  - Luiz Gustavo (RA: ??)
+  - Luiz Gustavo (RA: 0618130)
   - Fernando de Sampaio Steimback Vidal (RA: 0626729)
   - Larissa Tamires de Araujo Nascimento (RA: 0622906)
