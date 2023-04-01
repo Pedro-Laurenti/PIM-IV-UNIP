@@ -213,11 +213,7 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 <br>
 
-<center>
-
-<div>
-
-<center style="display:flex;">
+<div align="center" style="display:flex;">
 
 ![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png)
 
@@ -225,18 +221,13 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 ![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png)
 
-</center>
-
 </div>
 
-<center>
-
+<div align="center" style="display:flex;">
 Framework utilizado: Flutter/Dart.
+</div>
 
-</center>
-
-    Vale ressaltar que este grupo estava no mesmo período que o nosso,
-    e já estavam utilizando outras linguagens e tecnologias (desenvolvimento Web).
+> Vale ressaltar que este grupo estava no mesmo período que o nosso, e já estavam utilizando outras linguagens e tecnologias (desenvolvimento Web).
 
 <br>
 
