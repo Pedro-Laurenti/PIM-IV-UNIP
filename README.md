@@ -215,11 +215,11 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 <div align="center" style="display:flex;">
 
-![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png)
+<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png" alt="drawing" width="20%"/>
 
 <span style="width:20px;"></span>
 
-![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png)
+<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png" alt="drawing" width="20%"/>
 
 </div>
 

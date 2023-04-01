@@ -203,10 +203,7 @@ O uso de latex não só é permitido em **qualquer** trabalho acadêmico quanto 
 
 O LaTex é o compilador oficial de documentos científicos, sendo que em algumas empresas de engenharia e tecnologia tornam ele **obrigatório** nos documentos.
 
-<div style="text-align:center; background-color:darker; padding:10px; display:inline-block">
-    Para entender a facilidade do uso da linguagem LaTex
-    Este documento apresentado aqui é escrito em um estilo de LaTex para HTML.
-</div>
+> Para entender a facilidade do uso da linguagem LaTex este documento apresentado aqui é escrito em um estilo de LaTex para HTML.
 
 # Análise de similares
 Para qualquer desenvolvimento, um dos primeiros passos é analizar a concorrencia e o histórico do produto.
@@ -215,7 +212,6 @@ Para qualquer desenvolvimento, um dos primeiros passos é analizar a concorrenci
 
 Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https://github.com/albertosdneto/pim5).
 <br>
-
 
 <center style="display:flex;">
 
