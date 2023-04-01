@@ -16,9 +16,11 @@ output:
 
 <div align="center">
 
-![Este documento foi feito utilizando R Markdown.](https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png){width=20%}
+![Logo criada para o protótipo](https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Design/3-Logo-Completa.png){width=50%}
 
 </div>
+
+<br>
 
 O projeto, perante uma situação problema hipotética, exige a elaboração de um software e a respectiva documentação de desenvolvimento seguindo as regras específicas da ABNT.
 
@@ -160,9 +162,9 @@ Objetivos do negócio que o software deve atender; Requisitos relacionados a cus
 
 # 3. Projeto de Interface com o Usuário
 
-![]()
+<center>
 
-Protótipo postado <u>[Aqui](https://www.stockedu.orbytesistemas.com)</u>
+![Protótipo postado <u>[Aqui](https://www.stockedu.orbytesistemas.com)</u>](https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Reuni%C3%A3o%201%20-%20PIM%20V/Captura%20de%20tela%202023-04-01%20185600.png){width=60%}
 
 <br>
 
@@ -208,19 +210,28 @@ O LaTex é o compilador oficial de documentos científicos, sendo que em algumas
 
 # Análise de similares
 Para qualquer desenvolvimento, um dos primeiros passos é analizar a concorrencia e o histórico do produto.
-<br><br>
+
+<br>
+
 Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https://github.com/albertosdneto/pim5).
-<br><br>
-<center>
+<br>
+
+
+<center style="display:flex;">
+
 ![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png)
-<span style="display:inline-block; width:20px;"></span>
+
+<span style="width:20px;"></span>
+
 ![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png)
+
 </center>
 
-<br><br>
+<br>
+
 Framework utilizado: Flutter/Dart.
 
-    Vale ressaltar que este grupo estava no mesmo período que o nosso, e já estavam utilizando outras linguagens e tecnologias (desenvolvimento Web).
+> Vale ressaltar que este grupo estava no mesmo período que o nosso, e já estavam utilizando outras linguagens e tecnologias (desenvolvimento Web).
 
 # Considerações finais
 
@@ -229,6 +240,12 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 - Integrantes:
   - Pedro José Laurenti de Matos (RA:0621134)
   - Cleverson Souza (RA: 0620885)
-  - Luiz Gustavo (RA: ??)
+  - Luiz Gustavo (RA: 0618130)
   - Fernando de Sampaio Steimback Vidal (RA: 0626729)
   - Larissa Tamires de Araujo Nascimento (RA: 0622906)
+
+<div align="center">
+
+![Este documento foi feito utilizando R Markdown.](https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png){width=20%}
+
+</div>

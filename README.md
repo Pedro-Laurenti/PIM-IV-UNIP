@@ -1,12 +1,8 @@
 # Projeto Integrado Multidisciplinar - PIM V
 
-<br>
-
 <div align="center">
 
-<img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
-
-Página feita com R Markdown e postada <u>[Aqui](https://github.com/)</u>
+![Logo criada para o protótipo](https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Design/3-Logo-Completa.png){width=20%}
 
 </div>
 
@@ -157,6 +153,8 @@ Objetivos do negócio que o software deve atender; Requisitos relacionados a cus
 
 # 3. Projeto de Interface com o Usuário
 
+![]()
+
 Protótipo postado <u>[Aqui](https://www.stockedu.orbytesistemas.com)</u>
 
 <br>
@@ -213,10 +211,19 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 <center>
 
-<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png" alt="drawing" width="40%"/>
-<img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png" alt="drawing" width="40%"/>
+<div>
+
+<center style="display:flex;">
+
+![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png)
+
+<span style="width:20px;"></span>
+
+![ ](https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png)
 
 </center>
+
+</div>
 
 <center>
 
@@ -301,3 +308,13 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
   - Luiz Gustavo (RA: 0618130)
   - Fernando de Sampaio Steimback Vidal (RA: 0626729)
   - Larissa Tamires de Araujo Nascimento (RA: 0622906)
+
+<br>
+
+<div align="center">
+
+<img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
+
+Página feita com R Markdown e postada <u>[Aqui](https://www.stockedu.orbytesistemas.com/documentation)</u>
+
+</div>
