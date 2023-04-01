@@ -153,7 +153,7 @@ Objetivos do negócio que o software deve atender; Requisitos relacionados a cus
 
 # 3. Projeto de Interface com o Usuário
 
-![]()
+<img src="https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Reuni%C3%A3o%201%20-%20PIM%20V/Captura%20de%20tela%202023-04-01%20185600.png" alt="drawing" width="20%">
 
 Protótipo postado <u>[Aqui](https://www.stockedu.orbytesistemas.com)</u>
 
