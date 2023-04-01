@@ -69,14 +69,14 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
       - [ ]  Tela de cadastro
       - [ ]  Main
         - [ ]  Empréstimos (data de entrega)
-        - [ ]  
+        - [ ]  Adquirir novo (vitrine)
+        - [ ]  Perfil do usuário
       - [ ]  Checkout
-      - [ ]  
     - [ ]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
 
 <br>
 
-4. Programação Orientada a Objetos I:
+1. Programação Orientada a Objetos I:
     - [ ]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
     - [ ]  &nbsp; Identificar estes elementos técnicos em seu sistema.
 
