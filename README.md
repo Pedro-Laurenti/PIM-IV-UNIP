@@ -118,7 +118,7 @@ Dentro dos requisitos funcionais decidiremos a arquitetura básica do aplicativo
 <center>
 
 ![](/Reuni%C3%A3o%201%20-%20PIM%20V/diagrama.svg)
-Para editar `<u>`[clique aqui](https://app.diagrams.net)`</u>`.
+<br> Para editar <u> [clique aqui](https://app.diagrams.net) </u>.
 
 </center>
 
