@@ -217,6 +217,8 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 <img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png" alt="drawing" width="20%"/>
 
+<span style="width:20px;"></span>
+
 <img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627859.png" alt="drawing" width="20%"/>
 
 </div>
