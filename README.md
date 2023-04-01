@@ -2,13 +2,13 @@
 
 <br>
 
-<center style="display: block; margin: 0 auto; width: 100%;">
+<div align="center">
 
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
-R Markdown postado <u>[Aqui](https://github.com/albertosdneto/pim5)</u>
+R Markdown postado <u>[Aqui](https://github.com/)</u>
 
-</center>
+</div>
 
 <br>
 
@@ -115,11 +115,10 @@ Um exemplo de requisito funcional seria a capacidade de um software de gestão d
 
 Dentro dos requisitos funcionais decidiremos a arquitetura básica do aplicativo:
 
-
+<div align="center">
 
 ![](/Reuni%C3%A3o%201%20-%20PIM%20V/diagrama.svg)
 
-<div align="center">
 
 <br> Para editar <u> [clique aqui](https://app.diagrams.net) </u>.
 
