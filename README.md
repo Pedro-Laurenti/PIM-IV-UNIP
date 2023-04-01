@@ -119,11 +119,11 @@ Dentro dos requisitos funcionais decidiremos a arquitetura básica do aplicativo
 
 ![](/Reuni%C3%A3o%201%20-%20PIM%20V/diagrama.svg)
 
-<center align="center">
+<div align="center">
 
 <br> Para editar <u> [clique aqui](https://app.diagrams.net) </u>.
 
-</center align="center">
+</div align="center">
 
 ### Testes
 
