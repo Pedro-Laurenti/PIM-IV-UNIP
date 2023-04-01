@@ -6,7 +6,7 @@
 
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
-R Markdown postado <u>[Aqui](https://github.com/)</u>
+Página feita com R Markdown e postada <u>[Aqui](https://github.com/)</u>
 
 </div>
 
@@ -39,39 +39,46 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
 # Linha do tempo de atividades
 
 1. Mercado e Economia:
-   - [ ] &nbsp; Levantamento dos principais agentes econômicos.
-     - identificação dos atores econômicos envolvidos com a empresa fornecedora do software e seus respectivos papéis no mercado.
-   - [ ] &nbsp; Estudo de viabilidade econômica para a implementação do projeto.
-     - análise financeira do projeto de software, levando em consideração o investimento necessário, o prazo de retorno do investimento e outros aspectos econômicos relevantes.
+    - [x]  &nbsp; Levantamento dos principais agentes econômicos.
+      - identificação dos atores econômicos envolvidos com a empresa fornecedora do software e seus respectivos papéis no mercado.
+    - [x]  &nbsp; Estudo de viabilidade econômica para a implementação do projeto.
+      - análise financeira do projeto de software, levando em consideração o investimento necessário, o prazo de retorno do investimento e outros aspectos econômicos relevantes.
 
 <br>
 
 2. Engenharia de Software II:
-   - [ ] &nbsp; Requisitos funcionais.
-     - Descrição dos serviços que o software deve fornecer;
-     - Funcionalidades específicas que o software deve possuir para atender aos requisitos  do cliente ou do usuário final;
-     - Qual metodologia a ser utilizada;
-     - Elaborar um planejamento de teste para os requisitos funcionais e descreva um roteiro de testes para os requisitos mencionados;
-   - [ ] &nbsp; Requisitos não funcionais.
-     - Restrições técnicas e de desempenho que o software deve atender;
-     - Requisitos de segurança, confiabilidade e disponibilidade do sistema;
-     - Regulamentações e normas que devem ser respeitadas.
-   - [ ] &nbsp; Requisitos de negócios.
-     - Objetivos do negócio que o software deve atender;
-     - Requisitos relacionados a custo, orçamento e tempo de desenvolvimento do software;
-     - Expectativas de retorno do investimento e de lucratividade do projeto.
+    - [x] &nbsp; Requisitos funcionais.
+      - Descrição dos serviços que o software deve fornecer;
+      - Funcionalidades específicas que o software deve possuir para atender aos requisitos  do cliente ou do usuário final;
+      - Qual metodologia a ser utilizada; 
+      - Elaborar um planejamento de teste para os requisitos funcionais e descreva um roteiro de testes para os requisitos mencionados;
+    - [x] &nbsp; Requisitos não funcionais.
+      - Restrições técnicas e de desempenho que o software deve atender;
+      - Requisitos de segurança, confiabilidade e disponibilidade do sistema;
+      - Regulamentações e normas que devem ser respeitadas.
+    - [x] &nbsp; Requisitos de negócios.
+      - Objetivos do negócio que o software deve atender;
+      - Requisitos relacionados a custo, orçamento e tempo de desenvolvimento do software;
+      - Expectativas de retorno do investimento e de lucratividade do projeto.
 
 <br>
 
 3. Projeto de Interface com o Usuário:
-   - [ ] &nbsp; Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
-   - [ ] &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
+    - &nbsp; Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
+      - [x]  Tela de login
+      - [ ]  Tela de cadastro
+      - [ ]  Main
+        - [ ]  Empréstimos (data de entrega)
+        - [ ]  
+      - [ ]  Checkout
+      - [ ]  
+    - [ ]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
 
 <br>
 
-1. Programação Orientada a Objetos I:
-   - [ ] &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
-   - [ ] &nbsp; Identificar estes elementos técnicos em seu sistema.
+4. Programação Orientada a Objetos I:
+    - [ ]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
+    - [ ]  &nbsp; Identificar estes elementos técnicos em seu sistema.
 
 <br>
 
@@ -119,8 +126,7 @@ Dentro dos requisitos funcionais decidiremos a arquitetura básica do aplicativo
 
 ![](/Reuni%C3%A3o%201%20-%20PIM%20V/diagrama.svg)
 
-
-<br> Para editar <u> [clique aqui](https://app.diagrams.net) </u>.
+Para editar <u> [clique aqui](https://app.diagrams.net) </u>.
 
 </div align="center">
 
@@ -151,11 +157,7 @@ Objetivos do negócio que o software deve atender; Requisitos relacionados a cus
 
 # 3. Projeto de Interface com o Usuário
 
-Um protótipo visa definir o que o programador de front-end faz, ele serve para definir a interface.
-
-Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
-
-Ao desenvolver, precisamos listar as INTERAÇÕES com o usuário - printar de preferência.
+Protótipo postado <u>[Aqui](https://www.stockedu.orbytesistemas.com)</u>
 
 <br>
 
