@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Logo criada para o protótipo](https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Design/3-Logo-Completa.png){width=20%}
+<img src="https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Design/3-Logo-Completa.png" alt="Windows" style="display: block; margin: 0 auto; width: 50%;">
 
 </div>
 
