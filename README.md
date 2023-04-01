@@ -213,7 +213,7 @@ Segue-se o mesmo trabalho desenvolvido com exelência por [outra equipe](https:/
 
 <br>
 
-<div align="center" style="display:flex;">
+<div align="center" style="display:flex; flex-direction:row;">
 
 <img src="https://raw.githubusercontent.com/albertosdneto/pim5/main/assets/images/Screenshot_1618627102.png" alt="drawing" width="20%"/>
 
