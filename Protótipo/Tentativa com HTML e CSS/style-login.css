@@ -67,6 +67,31 @@ main {
 	width: 100%;
 }
 
+/* Estilo da mensagem de sucesso */
+
+#success-message {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 80%;
+	padding: 10px;
+	background-color: #FFBABA;
+	border: 1px solid #D8000C;
+	color: #D8000C;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 9999;
+}
+
+#success-message.show {
+	display: block;
+	animation: fade-out 10s forwards;
+}
+
 /* Estilo da mensagem de erro */
 
 #error-message {
@@ -88,6 +113,30 @@ main {
 }
 
 #error-message.show {
+	display: block;
+	animation: fade-out 10s forwards;
+}
+
+
+#error-message2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 80%;
+	padding: 10px;
+	background-color: #FFBABA;
+	border: 1px solid #D8000C;
+	color: #D8000C;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 9999;
+}
+
+#error-message2.show {
 	display: block;
 	animation: fade-out 10s forwards;
 }
