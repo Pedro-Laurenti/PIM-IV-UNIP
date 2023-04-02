@@ -19,7 +19,7 @@
 				<input type="text" id="usuario" name="usuario" placeholder="Usuario">
 				<input type="password" id="senha" name="senha" placeholder="Senha">
 				<div id="botoes-main">
-					<a id="pagina-registro-a" href="pagina_registro.html">
+					<a id="pagina-registro-a" href="registro.php">
 						Registrar
 					</a>
 					<a id="pagina-secundaria-a">
