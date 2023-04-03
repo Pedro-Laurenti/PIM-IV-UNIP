@@ -1,12 +1,17 @@
 const form = document.getElementById("login-form");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
+const successMessage = document.getElementById("success-message");
+const errorMessage = document.getElementById("error-message");
+
+console.log(form);
+console.log(emailInput);
+console.log(passwordInput);
+console.log(successMessage);
+console.log(errorMessage);
 
 form.addEventListener("submit", (event) => {
 	event.preventDefault();
-
-	const errorMessage2 = document.getElementById("error-message2");
-	const successMessage = document.getElementById("success-message");
 
 	const emailValue = emailInput.value;
 	const passwordValue = passwordInput.value;
@@ -15,31 +20,27 @@ form.addEventListener("submit", (event) => {
 	const passwordRegex = /.{8,}/;
 
 	if (!emailRegex.test(emailValue)) {
-		console.log("Email inválido!");
-		errorMessage2.textContent = "Por favor, digite um e-mail válido.";
-		errorMessage2.classList.remove("show");
-		successMessage.classList.remove("show");
-		errorMessage2.classList.add("show");
+		errorMessage.textContent = "Por favor, digite um e-mail válido.";
+		errorMessage.classList.add("show");
+		setTimeout(() => {
+			errorMessage.classList.remove("show");
+		}, 5000); // 5 segundos
 		return;
 	}
 
 	if (!passwordRegex.test(passwordValue)) {
-		console.log("Senha inválida!");
-		errorMessage2.textContent = "Por favor, digite uma senha com pelo menos 8 caracteres.";
-		errorMessage2.classList.remove("show");
-		successMessage.classList.remove("show");
-		errorMessage2.classList.add("show");
+		errorMessage.textContent = "Por favor, digite uma senha com pelo menos 8 caracteres.";
+		errorMessage.classList.add("show");
+		setTimeout(() => {
+			errorMessage.classList.classList.remove("show");
+		}, 5000); // 5 segundos
 		return;
 	}
 
 	console.log("Formulário enviado!");
-	successMessage.textContent = "Formulário enviado!";
-	errorMessage2.classList.remove("show");
-	successMessage.classList.remove("show");
 	successMessage.classList.add("show");
-
 	setTimeout(() => {
-		form.submit();
 		successMessage.classList.remove("show");
-	}, 3000);
+	}, 5000); // 5 segundos
+
 })

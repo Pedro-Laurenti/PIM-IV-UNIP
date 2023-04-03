@@ -22,11 +22,9 @@
 					<a id="pagina-registro-a" href="registro.php">
 						Registrar
 					</a>
-					<a id="pagina-secundaria-a">
-						<button type="submit" id="entrar-botao-style">
-							Entrar
-						</button>
-					</a>
+					<button type="submit" id="entrar-botao-style">
+						Entrar
+					</button>
 				</div>
 			</form>
 		</div>

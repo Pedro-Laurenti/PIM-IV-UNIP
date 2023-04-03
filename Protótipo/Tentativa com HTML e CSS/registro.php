@@ -15,8 +15,12 @@
 	<main>
 		<div class="container">
 			<form id="login-form">
-				<div id="error-message2"></div>
-				<div id="success-message">Cadastro realizado com sucesso!</div>
+				<div id="error-message"></div>
+				<div id="success-message">
+					Cadastro realizado com sucesso!
+					<br>
+					Clique no link enviado no seu e-mail para entrar na plataforma 
+				</div>
 				<img id="logo-completa"src="img\3 - Logo-Completa.png" alt="logo-completa-inside-form">
 				<hr id="hr-entre-imagem-h2">
                 <h1>Novo no StockEdu? Faça o seu cadastro!</h1>
@@ -26,9 +30,9 @@
                     <input type="text" placeholder="Usuário">
                     <input type="password" id="password" placeholder="Senha">
 				<div id="botoes-main">
-					<div>
-						&nbsp;
-					</div>
+					<a id="pagina-registro-a" href="index.php">
+						Voltar
+					</a>
 					<button type="submit" id="entrar-botao-style">
 						Cadastrar
 					</button>
