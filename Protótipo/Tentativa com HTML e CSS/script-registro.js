@@ -17,6 +17,8 @@ form.addEventListener("submit", (event) => {
 	if (!emailRegex.test(emailValue)) {
 		console.log("Email inválido!");
 		errorMessage2.textContent = "Por favor, digite um e-mail válido.";
+		errorMessage2.classList.remove("show");
+		successMessage.classList.remove("show");
 		errorMessage2.classList.add("show");
 		return;
 	}
@@ -24,13 +26,20 @@ form.addEventListener("submit", (event) => {
 	if (!passwordRegex.test(passwordValue)) {
 		console.log("Senha inválida!");
 		errorMessage2.textContent = "Por favor, digite uma senha com pelo menos 8 caracteres.";
+		errorMessage2.classList.remove("show");
+		successMessage.classList.remove("show");
 		errorMessage2.classList.add("show");
 		return;
 	}
 
 	console.log("Formulário enviado!");
-    errorMessage2.textContent = "Formulário enviado!";
+	successMessage.textContent = "Formulário enviado!";
 	errorMessage2.classList.remove("show");
+	successMessage.classList.remove("show");
 	successMessage.classList.add("show");
-	form.submit();
-});
+
+	setTimeout(() => {
+		form.submit();
+		successMessage.classList.remove("show");
+	}, 3000);
+})

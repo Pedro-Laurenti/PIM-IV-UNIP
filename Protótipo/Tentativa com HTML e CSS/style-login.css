@@ -84,12 +84,12 @@ main {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	z-index: 9999;
+	z-index: 10;
 }
 
 #success-message.show {
 	display: block;
-	animation: fade-out 10s forwards;
+	animation: fade-out 5s forwards;
 }
 
 /* Estilo da mensagem de erro */
@@ -109,12 +109,12 @@ main {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	z-index: 9999;
+	z-index: 10;
 }
 
 #error-message.show {
 	display: block;
-	animation: fade-out 10s forwards;
+	animation: fade-out 5s forwards;
 }
 
 
@@ -133,12 +133,12 @@ main {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	z-index: 9999;
+	z-index: 10;
 }
 
 #error-message2.show {
 	display: block;
-	animation: fade-out 10s forwards;
+	animation: fade-out 5s forwards;
 }
 
 @keyframes fade-out {

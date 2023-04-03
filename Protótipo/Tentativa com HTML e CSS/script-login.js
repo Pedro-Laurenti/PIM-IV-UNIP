@@ -32,7 +32,7 @@ function exibirMensagemErro(mensagem) {
   errorMessage.classList.add('show');
   setTimeout(function() {
     errorMessage.classList.remove('show');
-  }, 2000);
+  }, 500);
 }
 
 form.addEventListener('submit', validarFormulario);
