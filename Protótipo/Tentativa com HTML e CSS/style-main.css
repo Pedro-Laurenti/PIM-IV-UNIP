@@ -209,6 +209,10 @@ div.body-content {
     padding-bottom: 100px;
 }
 
+/* ============================================================ */
+
+/* Footer */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -454,139 +458,66 @@ main {
     transition: 0.2s;
 }
 
-/*Área do "Sobre Nós"*/
-#wrapper-sobre{
-    width: 80%;
-    margin-bottom: 150px;
-}
-
-#sobrenos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.sobrenos-img {
-    width: 200px;
-    height: 450px;
-    object-position: 75% 25%;
-    object-fit: cover;
-}
-
-#text-sobre {
-    text-align: justify;
-    margin-left: 50px;
-}
-
-HR {
-    border-width: 1px;
-    border-style: solid;
-    border-color: dimgray;
-    width: 90%;
-}
-
-@media (max-width:1115px) {
-
-    #sobrenos {
-        margin-top: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sobrenos-img {
-        width: 100%;
-        height: 100px;
-        object-position: 50% 50%;
-        object-fit: cover;
-    }
-
-    #text-sobre {
-        text-align: justify;
-        margin-left: 0px;
-    }
-
-}
 
 /* ============================================================ */
 
 /* Galeria */
 
-#titulo-sec {
-    color: #50555a;
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 50px;
-    border-bottom: 3px solid #edc565;
-    width: 100%;
-    height: 40px;
-}
-
-#wrapper-galeria {
-    margin: 200px 0 150px;
+#wrapper-galer-prod{
     width: 80%;
+    margin: 50px 0 50px 0;
 }
 
-#galeria {
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.product a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.product img:hover {
+    filter:brightness(80%);
+    transition: 1s;
+}
+
+.prod-cont{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
     justify-content: space-between;
 }
 
-.galer {
-    position: relative;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* Estilos para dispositivos menores */
 
-.galer-ins {
-    font-size: 20px;
-    text-align: center;
-}
-
-.img-gal {
-    width: 100%;
-    height: 450px;
-    object-fit: contain;
-}
-
-.text-gal {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-size: 100px;
-    color: #08183498;
-}
-
-.hover-gal {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.42);
-    display: none;
-    color: #0e122f;
-}
-
-.galer:hover .hover-gal {
-    display: block;
-    transition: 0.2s;
-}
-
-@media (max-width: 1115px) {
-    #galeria {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: 80%;
+@media screen and (max-width: 767px) {
+    .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-    #wrapper-galeria {
-        height: 100%;
-        margin: 50px 0;
+
+    .product {
+    padding: 0.5rem;
+    }
+    
+    .product-details {
+    padding: 0.5rem;
     }
 }
 
@@ -703,3 +634,57 @@ HR {
 }
 
 /* ============================================================ */
+
+
+/* Meus Produtos */
+
+
+.minhas-requisicoes {
+    margin: 50px 20px;
+}
+
+.limite-cota {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin-left: 10px;
+    position: relative;
+}
+
+.progress-bar .fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #0066cc;
+    transition: width 0.3s ease-in-out;
+}
+
+table {
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    min-width: 120px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.lista-requisicoes tr:last-child td {
+    border-bottom: none;
+}

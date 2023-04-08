@@ -68,47 +68,90 @@
                     <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
-            <div id="wrapper-galeria">
-                <div id="titulo-sec">
-                    Equipamentos Disponíveis
+            <div id="wrapper-galer-prod">
+                <h2>Equipamentos disponíveis</h2>
+                <hr>
+                <br>
+                <div class="product-grid">
+                    <div class="product">
+                        <a href="#" class="prod-cont">
+                        <img src="img\7 - produto-1.png" alt="Produto 1">
+                        <div class="product-details">
+                            <h3>Datashow ProjeX</h3>
+                            <li>Resolução: Full HD (1920x1080 pixels)</li>
+                            <li>Luminosidade: 3500 lúmens</li>
+                            <li>Contraste: 10000:1</li>
+                            <u id="dash-do-prod">ver mais...</u>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="prod-cont">
+                        <img src="img\8 - produto-2.png" alt="Produto 2">
+                        <div class="product-details">
+                            <h3>Notebook InfinitoBook 5</h3>
+                            <li>Processador: Intel Core i7</li>
+                            <li>Armazenamento: SSD de 512 GB</li>
+                            <li>Placa de vídeo: NVIDIA GeForce MX350</li>
+                            <u id="dash-do-prod">ver mais...</u>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="prod-cont">
+                            <img src="img\9 - produto-3.png" alt="Produto 3">
+                            <div class="product-details">
+                                <h3>Caixa de som BoomPod</h3>
+                                <li>Potência de saída: 50W RMS</li>
+                                <li>Resposta de frequência: 40Hz - 20kHz</li>
+                                <li>Resistência à água: IPX5</li>
+                                <u id="dash-do-prod">ver mais...</u>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div id="galeria">
-                    <div class="galer-ins">
-                        <div class="galer">
-                            <img class="img-gal" src="img/7 - produto-1.png" alt=""></img>
-                            <a class="hover-gal" href="">
-                                <div id="text-gal-1">
-                                    <i class="fa-solid fa-plus"></i>
-                                </div>
-                            </a>
+            </div>
+            <div id="wrapper-galer-prod">
+                <h2>Meus empréstimos</h2>
+                <hr>
+                <div class="minhas-requisicoes">
+                    <div class="limite-cota">
+                        <div class="progress-bar">
+                            <div class="fill"></div>
                         </div>
-                        Datashow Hyperion HD Pro
-						<div>
-							Fabricante: TechVision
-						</div>
                     </div>
-                    <div class="galer-ins">
-                        <div class="galer">
-                            <img class="img-gal" src="img/8 - produto-2.png" alt=""></img>
-                            <a class="hover-gal" href="">
-                                <div id="text-gal-2">
-                                    <i class="fa-solid fa-plus"></i>
-                                </div>
-                            </a>
-                        </div>
-                        Notebook Samsung Book <br> Intel Core i3 1115G4
-                    </div>
-                    <div class="galer-ins">
-                        <div class="galer">
-                            <img class="img-gal" src="img/9 - produto-3.png" alt=""></img>
-                            <a class="hover-gal" href="">
-                                <div id="text-gal-3">
-                                    <i class="fa-solid fa-plus"></i>
-                                </div>
-                            </a>
-                        </div>
-                        Caixa De Som Portátil<br>Usb Radio Fm Auxiliar 8w
-                    </div>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome do item</th>
+                                <th>Data de aquisição</th>
+                                <th>Data de entrega</th>
+                            </tr>
+                        </thead>
+                        <tbody class="lista-requisicoes">
+                            <tr>
+                                <td>Notebook</td>
+                                <td>01/04/2023</td>
+                                <td>05/04/2023</td>
+                            </tr>
+                            <tr>
+                                <td>Caixa de som</td>
+                                <td>02/04/2023</td>
+                                <td>06/04/2023</td>
+                            </tr>
+                            <tr>
+                                <td>Datashow</td>
+                                <td>03/04/2023</td>
+                                <td>07/04/2023</td>
+                            </tr>
+                            <tr>
+                                <td>Câmera fotográfica</td>
+                                <td>04/04/2023</td>
+                                <td>08/04/2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </main>
