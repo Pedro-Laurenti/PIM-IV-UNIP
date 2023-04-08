@@ -76,10 +76,10 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
 3. Projeto de Interface com o Usuário:
     - &nbsp; Desenvolver protótipos de interfaces com alta fidelidade (em qualquer ferramenta);
       - [x]  Tela de login
-      - [ ]  Tela de cadastro
-      - [ ]  Main
-        - [ ]  Empréstimos (data de entrega)
-        - [ ]  Adquirir novo (vitrine)
+      - [x]  Tela de cadastro
+      - [x]  Main
+        - [x]  Empréstimos (data de entrega)
+        - [x]  Adquirir novo (vitrine)
         - [ ]  Perfil do usuário
       - [ ]  Checkout
     - [ ]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;

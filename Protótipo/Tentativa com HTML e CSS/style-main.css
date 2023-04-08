@@ -639,7 +639,7 @@ main {
 /* Meus Produtos */
 
 
-.minhas-requisicoes {
+#minhas-requisicoes {
     margin: 50px 20px;
 }
 
@@ -687,4 +687,51 @@ th {
 
 .lista-requisicoes tr:last-child td {
     border-bottom: none;
+}
+
+/* ============================================================ */
+
+/* equipamento */
+
+.product-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product .description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product .description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product .description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #0062cc;
 }
