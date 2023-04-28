@@ -73,8 +73,8 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
 <br>
 
 1. Programação Orientada a Objetos I:
-    - [ ]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
-    - [ ]  &nbsp; Identificar estes elementos técnicos em seu sistema.
+    - [x]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
+    - [x]  &nbsp; Identificar estes elementos técnicos em seu sistema.
 
 <br>
 

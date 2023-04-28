@@ -383,45 +383,31 @@ contribuirão para a evolução do \abnTeX.
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
- Segundo a \citeonline[3.1-3.2]{NBR6028:2003}, o resumo deve ressaltar o
- objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão
- destes itens dependem do tipo de resumo (informativo ou indicativo) e do
- tratamento que cada item recebe no documento original. O resumo deve ser
- precedido da referência do documento, com exceção do resumo inserido no
- próprio documento. (\ldots) As palavras-chave devem figurar logo abaixo do
- resumo, antecedidas da expressão Palavras-chave:, separadas entre si por
- ponto e finalizadas também por ponto.
+ Este trabalho apresenta um projeto de sistema de reserva e controle de
+equipamentos audiovisuais para escola do Ensino Fundamental e Médio, visando
+facilitar o controle de empréstimos de recursos. O projeto foi criado combase em
+disciplinas como Engenharia de Software, projeto de Interface, Economia e
+Mercado e Programação Orientada a Objetos. O sistema conta comuma interface
+intuitiva que permite que os professores solicitem empréstimos de forma fácil,
+enquanto os administradores gerenciam os empréstimos de maneiraeficiente.
 
- \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+ \textbf{Palavras-chave}:  Escola. Sistema. Reserva. Equipamentos.
 \end{resumo}
 
 % resumo em inglês
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
-   This is the english abstract.
+ This paper presents a project for a reservation and control system for
+audiovisual equipment for Elementary and High Schools, with the aim of facilitating
+the control of borrowing resources. The project was created basedon disciplines
+such as Software Engineering, Interface design, Economy andMarket and Object
+Oriented Programming. The system features an intuitive interface that allows
+teachers to easily apply for grants, while administrators manage grants efficiently.
 
    \vspace{\onelineskip}
  
    \noindent 
-   \textbf{Keywords}: latex. abntex. text editoration.
- \end{otherlanguage*}
-\end{resumo}
-
-% resumo em francês 
-\begin{resumo}[Résumé]
- \begin{otherlanguage*}{french}
-    Il s'agit d'un résumé en français.
- 
-   \textbf{Mots-clés}: latex. abntex. publication de textes.
- \end{otherlanguage*}
-\end{resumo}
-
-% resumo em espanhol
-\begin{resumo}[Resumen]
- \begin{otherlanguage*}{spanish}
-   Este es el resumen en español.
-  
-   \textbf{Palabras clave}: latex. abntex. publicación de textos.
+   \textbf{Keywords}: School. System. Reservation. Equipment.
  \end{otherlanguage*}
 \end{resumo}
 % ---
@@ -455,7 +441,7 @@ contribuirão para a evolução do \abnTeX.
 % ---
 \begin{siglas}
   \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX
+  \item[abnTeX] ABsurdas Normas para TeX (segundo desenvolvedores)
 \end{siglas}
 % ---
 
@@ -491,48 +477,24 @@ contribuirão para a evolução do \abnTeX.
 \chapter{Introdução}
 % ----------------------------------------------------------
 
-Este documento e seu código-fonte são exemplos de referência de uso da classe
-\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
-exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
-gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
-- Trabalhos acadêmicos - Apresentação}.
+O gerenciamento de empréstimos de biblioteca é uma atividade fundamental para as escolas e universidades, sendo que a utilização de sistemas eletrônicos tem sido cada vez mais comum. Com a evolução tecnológica, as opções de software de gerenciamento têm se expandido, permitindo que as instituições escolham a solução que melhor se adapte às suas necessidades.
 
-A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
-modelo específico de nenhuma universidade ou instituição, mas que implementa tão
-somente os requisitos das normas da ABNT. Uma lista completa das normas
-observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
+Nesse contexto, o objetivo deste trabalho é apresentar uma solução tecnológica para o gerenciamento de empréstimos em uma escola fictícia, explorando suas principais funcionalidades e vantagens. Para tanto, serão realizadas pesquisas bibliográficas e desenvolvimento de um protótipo, buscando identificar as características da solução ideal para a instituição em questão.
 
-Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
-\url{http://www.abntex.net.br/}. Também fique livre para conhecer,
-estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
-modificados tenham seus nomes alterados e que os créditos sejam dados aos
-autores originais, nos termos da ``The \LaTeX\ Project Public
-License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
+Acredita-se que este trabalho poderá contribuir para a melhoria do gerenciamento de empréstimos de biblioteca, tornando o acesso aos materiais mais fácil para os professores e otimizando o trabalho dos profissionais envolvidos no processo de aprendizado.
 
-Encorajamos que sejam realizadas customizações específicas deste exemplo para
-universidades e outras instituições --- como capas, folha de aprovação, etc.
-Porém, recomendamos que ao invés de se alterar diretamente os arquivos do
-\abnTeX, distribua-se arquivos com as respectivas customizações.
-Isso permite que futuras versões do \abnTeX~não se tornem automaticamente
-incompatíveis com as customizações promovidas. Consulte
-\citeonline{abntex2-wiki-como-customizar} para mais informações.
+Durante o período de estudos, foram abordados diversos conceitos importantes nas matérias de Economia e Mercado, Engenharia de Software, Programação Orientada a Objetos e Projeto de Interface com o Usuário. Em Economia e Mercado, aprendemos sobre o funcionamento das leis de oferta e demanda, os diferentes tipos de mercados e as políticas econômicas adotadas pelo governo. Já em Engenharia de Software, abordamos metodologias de desenvolvimento de software e técnicas de gerenciamento de projetos de software. Na disciplina de Programação Orientada a Objetos, aprendemos sobre os conceitos de classes, objetos, herança e polimorfismo. Por fim, na matéria de Projeto de Interface com o Usuário, estudamos sobre a importância da usabilidade e da experiência do usuário no desenvolvimento de interfaces gráficas para sistemas computacionais, bem como as técnicas e ferramentas utilizadas para a criação de interfaces intuitivas e eficientes. Todo esse conhecimento adquirido será fundamental para o desenvolvimento de projetos futuros na área de tecnologia da informação.
 
-Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ 
-\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir}
-\cite{memoir}. 
+Postamos o protótipo final do trabalho em \url{https://www.stockedu.orbytesistemas.com/} \footnote{\url{http://www.latex-project.org/lppl.txt}}, o acesso para o resto da plataforma é "usuario1" e "senha1". Já o código fonte, assim como outros documentos importante de reuniões e afins, postamos no github, disponível em \url{https://github.com/Pedro-Laurenti/PIM-IV-UNIP}\footnote{\url{https://github.com/Pedro-Laurenti/PIM-IV-UNIP}}.
 
-Esperamos, sinceramente, que o \abnTeX\ aprimore a qualidade do trabalho que
-você produzirá, de modo que o principal esforço seja concentrado no principal:
-na contribuição científica.
+A Equipe
 
-Equipe \abnTeX 
-
-Lauro César Araujo
+Pedro José Laurenti de Matos
 
 % ----------------------------------------------------------
 % PARTE
 % ----------------------------------------------------------
-\part{Preparação da pesquisa}
+\part{Pesquisa de mercado e metodologias}
 % ----------------------------------------------------------
 
 % ---

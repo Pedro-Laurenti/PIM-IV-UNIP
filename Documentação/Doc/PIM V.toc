@@ -9,55 +9,55 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{31}{chapter.1}%
-\contentsline {part}{\partnumberline {I}\MakeUppercase []{Preparação da pesquisa}}{33}{part.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{27}{chapter.1}%
+\contentsline {part}{\partnumberline {I}\MakeUppercase []{Pesquisa de mercado e metodologias}}{29}{part.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Conteúdos específicos do modelo de trabalho acadêmico}}{35}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Quadros}{35}{section.2.1}%
-\contentsline {part}{\partnumberline {II}\MakeUppercase []{Referenciais teóricos}}{37}{part.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Conteúdos específicos do modelo de trabalho acadêmico}}{31}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Quadros}{31}{section.2.1}%
+\contentsline {part}{\partnumberline {II}\MakeUppercase []{Referenciais teóricos}}{33}{part.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{ ipsum dolLoremor sit amet}}{39}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Aliquam vestibulum fringilla lorem}{39}{section.3.1}%
-\contentsline {part}{\partnumberline {III}\MakeUppercase []{Resultados}}{41}{part.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{ ipsum dolLoremor sit amet}}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aliquam vestibulum fringilla lorem}{35}{section.3.1}%
+\contentsline {part}{\partnumberline {III}\MakeUppercase []{Resultados}}{37}{part.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Lectus lobortis condimentum}}{43}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}{43}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Lectus lobortis condimentum}}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}{39}{section.4.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Pellentesque sit amet pede ac sem eleifend consectetuer}{45}{section.5.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Pellentesque sit amet pede ac sem eleifend consectetuer}{41}{section.5.1}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Conclusão}}{47}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Conclusão}}{43}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{49}{section*.25}%
+\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{45}{section*.23}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{51}{section*.26}%
+\contentsline {part}{\uppercase {Ap\^endices}}{47}{section*.24}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Quisque libero justo}}{53}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Quisque libero justo}}{49}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{55}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{51}{appendix.B}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{57}{section*.27}%
+\contentsline {part}{\uppercase {Anexos}}{53}{section*.25}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Morbi ultrices rutrum lorem.}}{59}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Morbi ultrices rutrum lorem.}}{55}{appendix.anexochapback.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{61}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{57}{appendix.anexochapback.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeUppercase []{Fusce facilisis lacinia dui}}{63}{appendix.anexochapback.3}%
+\contentsline {appendix}{\chapternumberline {C}\MakeUppercase []{Fusce facilisis lacinia dui}}{59}{appendix.anexochapback.3}%
 \vspace {\cftbeforechapterskip }

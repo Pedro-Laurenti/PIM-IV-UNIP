@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  31 MAR 2023 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  28 APR 2023 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/pedro/Desktop/PIM-IV-UNIP/Documentação/Doc/PIM V.tex"
-(c:/Users/pedro/Desktop/PIM-IV-UNIP/Documentação/Doc/PIM V.tex
+**"c:/Users/pedro/Desktop/Faculdade/PIM-IV-UNIP/Documentação/Doc/PIM V.tex"
+(c:/Users/pedro/Desktop/Faculdade/PIM-IV-UNIP/Documentação/Doc/PIM V.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (C:\MikTex\tex/latex/abntex2\abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -867,41 +867,34 @@ l.284
 
 ] [13] [14
 
-] [15] [16
+] (PIM V.lof) [15] [16
 
-]
-LaTeX Info: Redefining \. on input line 421.
-LaTeX Info: Redefining \% on input line 421.
- [17] [18
+] (PIM V.loq) [17] [18
 
-] (PIM V.lof) [19] [20
+] (PIM V.lot) [19] [20
 
-] (PIM V.loq) [21] [22
+] [21
 
-] (PIM V.lot) [23] [24
+] [22
 
-] [25
+] [23
 
-] [26
-
-] [27
-
-] [28
+] [24
 
 ] (PIM V.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 13.
- [29]) [30] [31
+ [25]) [26] [27
 
 
-] [32
+] [28
 
-] [33] [34]
+] [29] [30]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
 
 No file abntex2-modelo-include-comandos.tex.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 548.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 510.
 (C:\MikTex\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -909,10 +902,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [35
+ [31
 
 
 
+
+] [32
+
+] [33] [34] [35
 
 ] [36
 
@@ -920,49 +917,48 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ] [40
 
-] [41] [42] [43
-
-] [44
-
-] [45] [46
+] [41] [42
 
 ] (PIM V.bbl (PIM V.brf)
 \tf@brf=\write5
 \openout5 = `"PIM V.brf"'.
 
- [47] [48
+ [43] [44
 
 ]
 bibitemlist
-) [49] [50
+
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
+
+) [45] [46
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 666.
+(hyperref)                removing `\uppercase' on input line 628.
 
-[51
+[47
 
-] [52] [53
+] [48] [49
 
-] [54
+] [50
 
-] [55] [56
+] [51] [52
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 694.
+(hyperref)                removing `\uppercase' on input line 656.
 
-[57
+[53
 
-] [58] [59
+] [54] [55
 
-] [60
+] [56
 
-] [61] [62
+] [57] [58
 
-] (PIM V.ind) [63]
+] (PIM V.ind) [59]
 \tf@lof=\write6
 \openout6 = `"PIM V.lof"'.
 
@@ -977,20 +973,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (PIM V.aux (abntex2-modelo-include-comandos.aux))
 Package rerunfilecheck Info: File `"PIM V".brf' has not changed.
-(rerunfilecheck)             Checksum: E9545D5B308CAEDED52AE0B472039712;422.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19034 strings out of 476339
- 304868 string characters out of 5804534
- 1860340 words of memory out of 5000000
- 38859 multiletter control sequences out of 15000+600000
- 596536 words of font info for 156 fonts, out of 8000000 for 9000
+ 18910 strings out of 476339
+ 303230 string characters out of 5804534
+ 1861340 words of memory out of 5000000
+ 38756 multiletter control sequences out of 15000+600000
+ 596096 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1638b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,90p,1648b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-rm.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmmi12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><C:/MikTex/fonts/type1/public/lm/lmsy10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "PIM V.pdf" (65 pages, 397125 bytes).
+Output written on "PIM V.pdf" (61 pages, 383378 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 49953 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 575 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 49937 words of extra memory for PDF output out of 51595 (max. 10000000)
 
