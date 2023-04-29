@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Design/Logo-do-projeto.png" alt="Windows" style="display: block; margin: 0 auto; width: 50%;">
+<img src="https://raw.githubusercontent.com/Pedro-Laurenti/PIM-IV-UNIP/main/Design/Logo-do-projeto.png" alt="Windows" style="display: block; margin: 0 auto; width: 100%;">
 
 </div>
 
