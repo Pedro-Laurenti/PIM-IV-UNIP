@@ -66,9 +66,9 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
       - [x]  Main
         - [x]  Empréstimos (data de entrega)
         - [x]  Adquirir novo (vitrine)
-        - [ ]  Perfil do usuário
-      - [ ]  Checkout
-    - [ ]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
+        - [x]  Perfil do usuário
+      - [x]  Checkout
+    - [x]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
 
 <br>
 
@@ -297,8 +297,8 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 - Integrantes:
   - Pedro José Laurenti de Matos (RA:0621134)
-  - Cleverson Souza (RA: 0620885)
-  - Luiz Gustavo (RA: 0618130)
+  - Cleverson da Silva Souza (RA: 0620885)
+  - Luiz Gustavo Nascimento de Souza (RA: 0618130)
   - Fernando de Sampaio Steimback Vidal (RA: 0626729)
   - Larissa Tamires de Araujo Nascimento (RA: 0622906)
 
