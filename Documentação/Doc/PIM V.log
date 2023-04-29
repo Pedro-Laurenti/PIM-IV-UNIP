@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  28 APR 2023 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  28 APR 2023 23:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -831,6 +831,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--263
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+
+ []
+
+
 Overfull \hbox (16.6597pt too wide) in paragraph at lines 263--263
 []  [] 
  []
@@ -877,88 +882,135 @@ l.284
 
 ] [22
 
-] [23
-
-] [24
-
 ] (PIM V.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 13.
- [25]) [26] [27
+(Font)              <14.4> on input line 12.
+) [23] [24
 
+] [25
 
-] [28
+] [26
 
-] [29] [30]
+] [27] [28]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
 
 No file abntex2-modelo-include-comandos.tex.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 510.
-(C:\MikTex\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 511.
+(C:\MikTex\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
+ [29
+
+
+
+
+] [30]
+Overfull \hbox (38.05595pt too wide) in paragraph at lines 578--611
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1107) has occurred while \output is active []
+
  [31
 
+]
+Overfull \hbox (19.01897pt too wide) in paragraph at lines 628--638
+ [][] 
+ []
 
+[32]
+Overfull \hbox (3.34833pt too wide) in paragraph at lines 653--688
+ [][] 
+ []
 
+[33] [34] [35
 
-] [32
+] [36]
+<fig/print1-login.png, id=271, 1927.2pt x 1055.945pt>
+File: fig/print1-login.png Graphic file (type png)
+<use fig/print1-login.png>
+Package pdftex.def Info: fig/print1-login.png  used on input line 728.
+(pdftex.def)             Requested size: 273.00278pt x 149.57143pt.
+<fig/Logo-do-projeto.png, id=272, 1757.56625pt x 702.625pt>
+File: fig/Logo-do-projeto.png Graphic file (type png)
+<use fig/Logo-do-projeto.png>
+Package pdftex.def Info: fig/Logo-do-projeto.png  used on input line 737.
+(pdftex.def)             Requested size: 273.00278pt x 109.13089pt.
+ [37
 
-] [33] [34] [35
+ <./fig/print1-login.png (PNG copy)> <./fig/Logo-do-projeto.png (PNG copy)>]
+<fig/print2-errologin.png, id=277, 1927.2pt x 1055.945pt>
+File: fig/print2-errologin.png Graphic file (type png)
+<use fig/print2-errologin.png>
+Package pdftex.def Info: fig/print2-errologin.png  used on input line 751.
+(pdftex.def)             Requested size: 273.00278pt x 149.57143pt.
+<fig/print3-cadastro.png, id=278, 1927.2pt x 1055.945pt>
+File: fig/print3-cadastro.png Graphic file (type png)
+<use fig/print3-cadastro.png>
+Package pdftex.def Info: fig/print3-cadastro.png  used on input line 760.
+(pdftex.def)             Requested size: 273.00278pt x 149.57143pt.
+<fig/print4-teladecarregamento.png, id=279, 1910.13625pt x 1072.005pt>
+File: fig/print4-teladecarregamento.png Graphic file (type png)
+<use fig/print4-teladecarregamento.png>
+Package pdftex.def Info: fig/print4-teladecarregamento.png  used on input line 777.
+(pdftex.def)             Requested size: 273.00278pt x 153.20395pt.
+<fig/print5-telaprincipal.png, id=280, 1917.1625pt x 2463.2025pt>
+File: fig/print5-telaprincipal.png Graphic file (type png)
+<use fig/print5-telaprincipal.png>
+Package pdftex.def Info: fig/print5-telaprincipal.png  used on input line 784.
+(pdftex.def)             Requested size: 273.00278pt x 350.7469pt.
+ [38 <./fig/print2-errologin.png (PNG copy)> <./fig/print3-cadastro.png (PNG copy)>]
+<fig/print6-responsividademain.png, id=288, 386.44376pt x 859.21pt>
+File: fig/print6-responsividademain.png Graphic file (type png)
+<use fig/print6-responsividademain.png>
+Package pdftex.def Info: fig/print6-responsividademain.png  used on input line 795.
+(pdftex.def)             Requested size: 181.99722pt x 404.64162pt.
+ [39 <./fig/print4-teladecarregamento.png (PNG copy)> <./fig/print5-telaprincipal.png (PNG copy)>]
+<fig/print7-telaproduto.png, id=293, 1917.1625pt x 2815.51875pt>
+File: fig/print7-telaproduto.png Graphic file (type png)
+<use fig/print7-telaproduto.png>
+Package pdftex.def Info: fig/print7-telaproduto.png  used on input line 810.
+(pdftex.def)             Requested size: 181.99722pt x 267.26225pt.
 
-] [36
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [37] [38] [39
+ [40 <./fig/print6-responsividademain.png>] [41 <./fig/print7-telaproduto.png (PNG copy)>] [42
 
-] [40
+] [43] [44
 
-] [41] [42
-
-] (PIM V.bbl (PIM V.brf)
+] [45] [46] (PIM V.bbl (PIM V.brf)
 \tf@brf=\write5
 \openout5 = `"PIM V.brf"'.
 
- [43] [44
+ [47
+
+] [48
 
 ]
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [45] [46
+)
+Overfull \hbox (29.77083pt too wide) in paragraph at lines 895--897
+\T1/lmr/m/n/12 (-20) Disponível em: [][]$<[]https : / / www . alura . com . br / artigos / poo-[]programacao-[]orientada-[]aobjetos>[]$[][] 
+ []
 
-]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 628.
+Overfull \hbox (52.8175pt too wide) in paragraph at lines 903--906
+[][]$\T1/lmr/m/n/12 (-20) <[]http : / / rederequisitos . com . br / quais-[]os-[]tipos-[]derequisitos-[]desoftware-[]sabe-[]diferenca-[]entre-[]eles /
+ []
 
-[47
 
-] [48] [49
+Overfull \hbox (39.10034pt too wide) in paragraph at lines 906--907
+[]\T1/lmr/m/n/12 (-20) REQUISITOS DE SIS-TEMA:[][]$<[]https : / / codi^^\car . com . br / requisitos-[]funcionais-[]naofuncionais /
+ []
 
-] [50
-
-] [51] [52
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 656.
-
-[53
-
-] [54] [55
-
-] [56
-
-] [57] [58
-
-] (PIM V.ind) [59]
+(PIM V.ind) [49]
 \tf@lof=\write6
 \openout6 = `"PIM V.lof"'.
 
@@ -976,17 +1028,17 @@ Package rerunfilecheck Info: File `"PIM V".brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18910 strings out of 476339
- 303230 string characters out of 5804534
- 1861340 words of memory out of 5000000
- 38756 multiletter control sequences out of 15000+600000
- 596096 words of font info for 152 fonts, out of 8000000 for 9000
+ 18989 strings out of 476339
+ 305652 string characters out of 5804534
+ 1862340 words of memory out of 5000000
+ 38811 multiletter control sequences out of 15000+600000
+ 601019 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1648b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-rm.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmmi12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb><C:/MikTex/fonts/type1/public/lm/lmsy10.pfb><C:/MikTex/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "PIM V.pdf" (61 pages, 383378 bytes).
+ 90i,13n,90p,1191b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on "PIM V.pdf" (51 pages, 4122854 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 49937 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 53505 words of extra memory for PDF output out of 61914 (max. 10000000)
 

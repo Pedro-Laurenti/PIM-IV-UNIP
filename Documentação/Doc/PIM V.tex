@@ -95,16 +95,16 @@
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
 \titulo{PIM V \\ Projeto Integrado Multidiciplinar V}
-\autor{Pedro José Laurenti de Matos
-\\Fernando de Sampaio Steimback Vidal
-\\Larissa Araújo
-\\Cleverson Souza
-\\Luiz Gustavo
+\autor{Pedro José Laurenti de Matos (RA:0621134)\\
+Cleverson da Silva Souza (RA: 0620885)\\
+Luiz Gustavo Nascimento de Souza (RA: 0618130)\\
+Fernando de Sampaio Steimback Vidal (RA: 0626729)\\
+Larissa Tamires de Araujo Nascimento (RA: 0622906)\\
 } %falta%
 \local{Brasil}
 \data{Março de 2023}
-\orientador{} %falta%
-\coorientador{} %falta%
+\orientador{Davi Lazer Grave Teixeira
+de Andrade} %falta%
 \instituicao{
   Universidade Paulista -- UNIP
   \par
@@ -298,11 +298,11 @@
     \vspace*{\fill}
    \end{center}
         
-   Trabalho aprovado. \imprimirlocal, 24 de março de 2023:
+   Trabalho aprovado. \imprimirlocal, 28 de abril de 2023:
 
    \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
-   \assinatura{\textbf{Professor} \\ Convidado 1}
-   \assinatura{\textbf{Professor} \\ Convidado 2}
+   \assinatura{\textbf{Professor} \\ Convidado}
+   %\assinatura{\textbf{Professor} \\ Convidado 2}
    %\assinatura{\textbf{Professor} \\ Convidado 3}
    %\assinatura{\textbf{Professor} \\ Convidado 4}
       
@@ -341,22 +341,9 @@
 % Agradecimentos
 % ---
 \begin{agradecimentos}
-Os agradecimentos principais são direcionados à Gerald Weber, Miguel Frasson,
-Leslie H. Watter, Bruno Parente Lima, Flávio de Vasconcellos Corrêa, Otavio Real
-Salvador, Renato Machnievscz\footnote{Os nomes dos integrantes do primeiro
-projeto abn\TeX\ foram extraídos de
-\url{http://codigolivre.org.br/projects/abntex/}} e todos aqueles que
-contribuíram para que a produção de trabalhos acadêmicos conforme
-as normas ABNT com \LaTeX\ fosse possível.
+Os agradecimentos principais são direcionados à Flávio Gomes Mamede e Paulo Lucas Araújo Lebtag que ajudaram amplamente para o desenvolvimento do projeto, e todos aqueles que contribuíram para que a produção deste trabalho acadêmico.
 
-Agradecimentos especiais são direcionados ao Centro de Pesquisa em Arquitetura
-da Informação\footnote{\url{http://www.cpai.unb.br/}} da Universidade de
-Brasília (CPAI), ao grupo de usuários
-\emph{latex-br}\footnote{\url{http://groups.google.com/group/latex-br}} e aos
-novos voluntários do grupo
-\emph{\abnTeX}\footnote{\url{http://groups.google.com/group/abntex2} e
-\url{http://www.abntex.net.br/}}~que contribuíram e que ainda
-contribuirão para a evolução do \abnTeX.
+Agradecimentos especiais são direcionados aos desenvolvedores do \abnTeX.
 
 \end{agradecimentos}
 % ---
@@ -365,13 +352,11 @@ contribuirão para a evolução do \abnTeX.
 % Epígrafe
 % ---
 \begin{epigrafe}
-    \vspace*{\fill}
+	\vspace*{\fill}
 	\begin{flushright}
-		\textit{``Não vos amoldeis às estruturas deste mundo, \\
-		mas transformai-vos pela renovação da mente, \\
-		a fim de distinguir qual é a vontade de Deus: \\
-		o que é bom, o que Lhe é agradável, o que é perfeito.\\
-		(Bíblia Sagrada, Romanos 12, 2)}
+		\textit{``Não podemos resolver problemas usando o mesmo \\
+		tipo de pensamento que usamos quando os criamos." \\
+		(Albert Einstein)}
 	\end{flushright}
 \end{epigrafe}
 % ---
@@ -440,20 +425,13 @@ teachers to easily apply for grants, while administrators manage grants efficien
 % inserir lista de abreviaturas e siglas
 % ---
 \begin{siglas}
-  \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX (segundo desenvolvedores)
+	\item[ABNT] Associação Brasileira de Normas Técnicas
+	\item[abnTeX] ABsurdas Normas para TeX
+	\item[RF] Requisitos Funcionais
+	\item[RNF] Requisitos Não Funcionais
+	\item[RN] Requisitos de Negócios
+	\item[POO] Programação Orientada a Objetos 
 \end{siglas}
-% ---
-
-% ---
-% inserir lista de símbolos
-% ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
 % ---
 
 % ---
@@ -503,82 +481,380 @@ Pedro José Laurenti de Matos
 \include{abntex2-modelo-include-comandos}
 % ---
 
-\chapter{Conteúdos específicos do modelo de trabalho acadêmico}\label{cap_trabalho_academico}
+\chapter{Economia e Mercado}\label{cap_trabalho_academico}
 
-\section{Quadros}
+Cada vez mais, as novas tecnologias são implementadas nas salas de aula em
+todo o mundo. Visando um maior engajamento dos alunos, com atividades
+dinâmicas, disponibilidade de recursos online, com intuito de personalizar o
+aprendizado contando com a colaboração de equipamentos. Portanto, os
+professores utilizam equipamentos audiovisuais para ministrar aulase torná-las mais
+divertidas, práticas e enriquecedoras.
 
-Este modelo vem com o ambiente \texttt{quadro} e impressão de Lista de quadros 
-configurados por padrão. Verifique um exemplo de utilização:
+Um dos problemas que se encontra, no entanto, na utilização desses
+equipamentos é a logística de organização, distribuição e utilização por parte dos
+professores em horário letivo de forma manual. Para tanto, a criação e
+desenvolvimento de um software de reserva de equipamentos se torna necessária.
+
+Para suprir as necessidades do colégio Vencer Sempre será necessário um
+projeto eficiente, com o planejamento adequado, que supra suas necessidades de
+forma satisfatória. Porém, se trata de um projeto de pequeno porte e o investimento
+precisa ser compatível com o melhor custo-benefício possível para as duas partes,
+a empresa e o colégio.
+
+\section{Projeto e Agentes Envolvidos}
+
+Para o andamento do projeto, precisamos mapear os agentes econômicosque
+estarão ligados com a empresa. Primeiramente, é necessário dividir as categorias
+em que os agentes econômicos envolvidos se encaixam em:
+
+\begin{itemize}
+    \item Famílias – ou os clientes, professores e funcionários em geral queutilizarão
+	o software
+    \item Governo – responsável por regular e organizar, neste caso, o setor
+	tecnológico com políticas e leis, bem como incentivos fiscais para empresas
+	deste setor.
+    \item Empresas – podem ser concorrentes, oferecendo serviços semelhantes ou
+	investidores, para ajudar no desenvolvimento e expansão.
+	\item Outros agentes que podem estar envolvidos no processo da criação do
+	software são fornecedores, parceiros, desenvolvedores etc. Deste modo,
+	oferecendo insumos necessários como softwares de desenvolvimentos, bibliotecas abertas ou empresas ou indivíduos que oferecem serviços
+	relacionados como treinamento, suporte técnico etc.
+\end{itemize}
+
+\section{Investimentos}
+
+Os investimentos necessários aqui serão objetivos, suscintos e eficientes, com
+foco na criação do projeto visando rapidez e melhor custo-benefício possível.
+Posteriormente, com a expansão do projeto e da empresa, outros tipos de
+investimentos serão necessários, mas no momento o foco será em:
+
+\begin{itemize}
+	\item Desenvolvedores – considerando que já tenham seus equipamentos
+	próprios, aqui nos preocuparemos apenas com salários. Serão 4 pessoas
+	envolvidas no projeto, um programador para realizar a codificação do projeto,
+	um analista de sistemas responsável pelo levantamento dos requisitos,
+	métodos, ferramentas e prazos utilizados, um testador responsável pela
+	validação do software – e um técnico responsável pela aplicação, instalação
+	e treinamento dos usuários.
+	\item Projeto – prazo em que se estabelece, com clareza, os objetivos do projeto.
+	Definir metas e ferramentas necessárias para atingir essas metas.
+	\item Desenvolvimento – é nesta fase que o código fonte é escrito, utilizando
+	ferramentas e tecnologias necessárias. Por ser a etapa mais crítica do
+	processo, é necessário um período maior para sua conclusão e avaliação.
+	\item Testes - nesta etapa os requisitos estabelecidos, principalmente pelo cliente,
+	na fase de planejamento são testados e validados. É necessário que todos
+	os requisitos sejam testados nessa fase para garantir que o software criado
+	é confiável e, desta forma, garantir a satisfação do cliente.
+	\item Demais investimentos – investimentos extras, com eventualidades no
+	planejamento, equipamentos e atualizações no software.
+\end{itemize}
+
+O tempo estimado para o desenvolvimento foi de 90 dias (540 horas) e o investimento inicial foi um montante de R\textdollar\ 35.000,00.
+
+Considerando não ser um projeto de grande complexidade, os investimentos
+iniciais serão baixos e progredirão de acordo com a expansão do projeto para
+outras escolas.
+
+Considerando o valor de investimento, o valor para implementação do software
+será de R\textdollar\ 3500,00 (10\% do valor) e uma taxa de R\textdollar\ 700,00 (2\% do valor) mensal
+para manutenção do software. Portanto, o tempo estimado para retorno do
+investimento inicial, contando apenas com a implementação no colégio Vencer
+Sempre e sem que ocorra ajustes, seria por volta de 45 meses.
+
+\chapter{Engenharia de Software}
+
+Por determinação indicaremos os requisitos funcionais e não funcionais por
+siglas, para os requisitos funcionais usaremos as siglas [RF], para os requisitos não funcionais usaremos as siglas [RNF] e os requisitos de negócio serão [RN].
+
+\section{Requisitos Funcionais}
+
+Os requisitos funcionais definem o que o sistema irá fazer e qual função irá
+executar. Por tanto, no sistema idealizado para atender os requisitos do colégio
+Vencer Sempre haverá:
 
 \begin{quadro}[htb]
-\caption{\label{quadro_exemplo}Exemplo de quadro}
-\begin{tabular}{|c|c|c|c|}
-	\hline
-	\textbf{Pessoa} & \textbf{Idade} & \textbf{Peso} & \textbf{Altura} \\ \hline
-	Marcos & 26    & 68   & 178    \\ \hline
-	Ivone  & 22    & 57   & 162    \\ \hline
-	...    & ...   & ...  & ...    \\ \hline
-	Sueli  & 40    & 65   & 153    \\ \hline
-\end{tabular}
+	\centering
+	\caption{\label{quadro_RF}Requisitos Funcionais}
+	\begin{tabular}{|c|c|>{\centering\arraybackslash}p{9cm}|}
+		\hline
+		\textbf{Identificador} & \textbf{Função} & \textbf{Descrição}\\ \hline
+		[RF01] & Fazer Login P          & Permite o acesso as informações que
+		pertence ao software. Para isso, o usuário
+		deverá digitar login e senha. Não deve haver
+		outra maneira de acessar o sistema.
+		Descrição complementar: Se o usuário não
+		tiver login ele deverá efetuar o cadastro que
+		veremos no requisito funcional [RF06]
+		posteriormente. \\ \hline
+		[RF02] & Realizar Agendamento   & Permite que o usuário, após acessar o
+		sistema no menu inicial, possa escolher a
+		opção de fazer agendamento, na tela a seguir
+		escolher o equipamento e a data do
+		requerimento da reserva e por fim salvar o
+		agendamento. \\ \hline
+		[RF03] & Alterar Agendamento    & Permite que o usuário após ter feito um
+		agendamento, possa alterar a solicitação
+		através dessa opção e salvar a alteração do
+		agendamento. \\ \hline
+		[RF04] & Excluir Agendamento    & Permite que o usuário possa excluir a
+		solicitação após ter feito um agendamento,
+		através dessa opção e salvar a exclusão do
+		agendamento. \\ \hline
+		[RF05] & Consultar Agendamento  & Permite que o usuário possa consultar os
+		agendamentos já feitos através dessa opção. \\ \hline
+		[RF06] & Cadastrar Usuário      & Se o usuário da tela de login não estiver
+		cadastrado ele poderá realizar o cadastro de
+		usuário e senha através desta opção. \\ \hline
+		[RF07] & Alterar Usuário        & Após o usuário acessar o sistema ele tem a
+		opção de alterar os dados de usuário. \\ \hline
+	\end{tabular}
 \fonte{Autor.}
 \end{quadro}
 
-Este parágrafo apresenta como referenciar o quadro no texto, requisito
-obrigatório da ABNT. 
-Primeira opção, utilizando \texttt{autoref}: Ver o \autoref{quadro_exemplo}. 
-Segunda opção, utilizando  \texttt{ref}: Ver o Quadro \ref{quadro_exemplo}.
+\section*{Requisitos Não Funcionais}
 
-% ----------------------------------------------------------
-% PARTE
-% ----------------------------------------------------------
-\part{Referenciais teóricos}
-% ----------------------------------------------------------
+Descrevem a qualidade dos serviços ou funções que estão disponíveis no
+sistema. A implantação dos requisitos não funcionais, surgem conforme a
+necessidade dos usuários do sistema, em razão de orçamento e outros fatorese
+também podem estar envolvidos a confiabilidade.
 
-% ---
-% Capitulo de revisão de literatura
-% ---
-\chapter{ ipsum dolLoremor sit amet}
-% ---
+Estes requisitos devem orientar o desenvolvimento no sentido de garantir o
+desempenho, confiabilidade, usabilidade, disponibilidade, segurança, manutenção
+e tecnologias envolvidas.A tabela abaixo mostra a descrição dos requisitos nãofuncionais do sistema:
 
-% ---
-\section{Aliquam vestibulum fringilla lorem}
-% ---
+\begin{quadro}[htb]
+	\centering
+	\caption{\label{quadro_RNF}Requisitos Não Funcionais}
+	\begin{tabular}{|c|c|>{\centering\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{6cm}|}
+		\hline
+		\textbf{Identificador} & \textbf{Categoria} & \textbf{Função} & \textbf{Descrição}\\ \hline
+		[RNF01] & Desempenho  & Velocidade do processo        & O tempo de execução dos processos do sistema deve ser curto \\ \hline
+		[RNF02] & Desempenho  & Atualização do banco de dados & O banco de dados deve ser utilizado em tempo real quando um cliente efetuar o agendamento ou alguma alteração de um agendamento \\ \hline
+		[RNF03] & Desempenho  & Volume de utilização          & O sistema deve ser capaz de suportar um número alto de usuários ativos ao mesmo tempo \\ \hline
+		[RNF04] & Segurança   & Autenticação de usuário       & Todos os clientes devem ter um cadastro para uso do sistema, em caso de primeiro acesso, o cliente deve ser redirecionado para efetuar o cadastro. \\ \hline
+		[RNF05] & Segurança   & Criptografia de senhas        & Todas as senhas de usuários devem ser criptografadas ao serem armazenadas no banco de dados. \\ \hline
+		[RNF06] & Usabilidade & Fácil utilização              & Um novo cliente deve ser capaz de efetuar um agendamento rapidamente e sem a necessidade de muitas orientações. \\ \hline
+	\end{tabular}
+	\fonte{Autor.}
+\end{quadro}
 
-\lipsum[1]
+\section{Requisitos de Negócios}
+Requisitos de negócios são a definição da forma de fazer o negócio,
+representando a política interna, o processo definido e/ou as regras básicas de
+conduta. Em outras palavras é um conjunto de instruções que os usuários já
+seguem e que o software a ser desenvolvido deve contemplar. Restrições,
+condições, validações e exceções do processo são alguns exemplos tradicionais de
+regras de negócio. Usaremos as siglas “RNxx” para identificar as Regras de
+Negócios. Abaixo veremos as regras que o sistema terá que cumprir:
 
-\lipsum[2-3]
+\begin{quadro}[htb]
+	\centering
+	\caption{\label{quadro_RN}Requisitos de Negócios}
+	\begin{tabular}{|c|c|>{\centering\arraybackslash}p{6cm}|}
+		\hline
+		\textbf{Identificador} & \textbf{Função} & \textbf{Descrição}\\ \hline
+		[RN01] & Validação de Senha Usuário & Regra de negócio que valida
+		o usuário no login do
+		sistema, o usuário terá que
+		efetuar a criação da senha
+		de até 6 caracteres usando
+		números inteiros. \\ \hline
+		[RN02] & Validação do Cadastro de Usuário & Regra de negócio que
+		verifica se o cadastro de
+		login do usuário tem até
+		8 caracteres que pode
+		conter letras e números. \\ \hline
+		[RN03] & Autenticação do CPF do Usuário & Regra de negócio que
+		autentica o CPF do usuário
+		no momento do cadastro em
+		sistema. \\ \hline
+		[RN04] & Validação do E-mail do usuário & Regra de negócio para
+		validação do e-mail do
+		usuário no cadastro em
+		sistema, onde será enviada
+		uma mensagem para o email informado no
+		cadastro, orientando-o a
+		clicar na URL enviada e
+		assim validando o e-mail no
+		sistema. \\ \hline
+		[RN05] & Verificação de Idade do Usuário & Regra de negócio que
+		verifica se o usuário que
+		está fazendo o
+		cadastramento
+		para uso do sistema é maior
+		de 18 anos com base no
+		CPF. \\ \hline
+	\end{tabular}
+\fonte{Autor.}
+\end{quadro}
 
-% ----------------------------------------------------------
-% PARTE
-% ----------------------------------------------------------
-\part{Resultados}
-% ----------------------------------------------------------
+\section{Metodologia MPS.br}
+O sistema idealizado para atender os requisitos do colégio é o MPS.br,
+abreviação para Melhoria de Processos do Software Brasileiro, um modelo de
+qualidade criado pela Softex que permite que os processos de software sejam
+melhorados com o passar do tempo uma vez que é projetado para possuir uma
+estrutura flexível e escalável.
 
-% ---
-% primeiro capitulo de Resultados
-% ---
-\chapter{Lectus lobortis condimentum}
-% ---
+O MPS.br possui sete níveis de maturidade de A a G, sendo G o nível mais
+baixo e A o mais alto assim possibilitando uma visualização do desempenho e
+resultado esperado, abaixo os sete níveis citados:
 
-% ---
-\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia Curae}
-% ---
+\begin{enumerate}[label=\textbf{(\Alph*)}]
+	\item Otimização
+	\item Gerenciado quantitativamente
+	\item Definido
+	\item Largamente definido
+	\item Parcialmente definido
+	\item Gerenciado
+	\item Parcialmente Gerenciado
+\end{enumerate}
 
-\lipsum[21-22]
+\part{Desenvolvimento}
 
-% ---
-% segundo capitulo de Resultados
-% ---
-\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum
-elementum}
-% ---
+\chapter{Projeto de Interface com o Usuário}
+Em concordância com a matéria Projeto de Interface com usuários, o presente
+projeto foi feito com os conhecimentos e estudos adquiridos durante o curso. A
+interface de um projeto conecta os usuários aos recursos oferecidos pelo sistema
+ou pode se dizer que para o usuário, a interface é o próprio sistema em si. Logo, é
+extremamente importante que seja uma interface fluida, dinâmica, segura e
+acessível. A partir desses princípios o projeto StockEdu tem como objetivo facilitar e
+organizar os empréstimos de quipamentos audiovisuais para professores do ensino
+médio/fundamental.
 
-% ---
-\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
-% ---
+Ao acessar o site \url{https://www.stockedu.orbytesistemas.com/} o usuário já se depara com um sistema de login em uma interface responsiva, agradável e moderna:
 
-\lipsum[24]
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/print1-login.png}
+	\caption{Tela de login (fonte: o autor).}
+	\label{fig:print1-login}
+\end{figure}
+
+Foi desenvolvido para o projeto todo um conceito de design, tanto para a logo quanto para os outros elementos, tendo paletas de cores combinantes e elementos dispostos lógicamente de forma a agradar o usuário final do App:
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/Logo-do-projeto.png}
+	\caption{Logotipo desenvolvido (fonte: o autor).}
+	\label{fig:Logo-do-projeto}
+\end{figure}
+
+\begin{table}
+\end{table}
+
+A logo do App é um globo terrestre e seus meridianos, o que passa uma ideia de aprendizado e escolas (já que várias bibliotecas possuem um globo) e ao mesmo tempo também de armazenamento e almoxarifado, a funcionalidade principal do aplicativo.
+
+Ao continuar o fluxo, o usuário preenche os campos de entrada, caso preencha errado qualquer um dos campos (operador lógico e/ou) aparecerá a seguinte mensagem:
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/print2-errologin.png}
+	\caption{Mensagem de erro 1 (fonte: o autor).}
+	\label{fig:print2-errologin}
+\end{figure}
+
+Se o usuário não houver se cadastrado, poderá criar um novo perfil em "Registrar", onde será redirecionado a um pequeno formulário:
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/print3-cadastro.png}
+	\caption{Tela de cadastro (fonte: o autor).}
+	\label{fig:print3-cadastro}
+\end{figure}
+
+Caso o usuário preencher algum campo errado, uma mensagem de validação aparecerá apontando o erro. As validações aqui são para os seguintes casos:
+
+\begin{enumerate}[label=\textbf{\Alph*)}]
+	\item Email fora do padrão de ''xxxxxx@xxxx.com'';
+	\item Nome de usuário já consta na base de dados;
+	\item Senha fraca;
+\end{enumerate}
+
+Ao se cadastrar ou fazer o login corretamente, o usuário é redirecionado para a tela principal do aplicativo passando antes por uma tela de carregamento animada:
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/print4-teladecarregamento.png}
+	\caption{Tela de carregamento (fonte: o autor).}
+	\label{fig:print4-teladecarregamento}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/print5-telaprincipal.png}
+	\caption{Tela principal (fonte: o autor).}
+	\label{fig:print5-telaprincipal}
+\end{figure}
+
+Na tela principal há um slide de imagens completamente funcional com botões e um timer, uma prateleira de itens onde ficarão os itens cadastrados pela escola e uma área do usuário, onde haverá o histórico de empréstimos e solicitações, assim como as solicitações em aberto.
+
+O cabeçalho da página contem botões com animações de rolagem e total responsividade:
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.4\textwidth]{fig/print6-responsividademain.png}
+	\caption{Comportamento do cabeçalho em outros tamanhos de tela (fonte: o autor).}
+	\label{fig:print6-responsividademain}
+\end{figure}
+
+O userflow da interface é bem definido e intuitivo. Ao acessar a tela inicial,
+o usuário pode optar por navegar pelas seções de "Equipamentos" que atualmente
+possui 3, uma caixa de som, um notebook e um projetor ou "Minhas Aquisições"
+para verificar as movimentações que o usuário já realizou no sistema ao solicitar
+equipamentos. Ao clicar na seção de "Equipamentos", é apresentada uma lista de
+equipamentos disponíveis para empréstimo, com opções para saber mais sobre
+cada equipamento e agendar o empréstimo.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.4\textwidth]{fig/print7-telaproduto.png}
+	\caption{Tela do item selecionado (fonte: o autor).}
+	\label{fig:print7-telaproduto}
+\end{figure}
+
+A interface criada para o empréstimo de equipamentos audiovisuais para
+escolas de ensino médio e fundamental apresenta uma estrutura bem definida, com
+telas intuitivas e um userflow eficiente. O layout e a escolha dos elementos foram
+coerentes com a temática da interface, o que ajuda a transmitir uma imagem
+profissional e confiável da empresa. A logo da interface é simples e eficiente, com
+um ícone de projetor que ajuda a identificar facilmente a atividade da empresa. No
+geral, a interface é bem-sucedida em apresentar informações importantes de forma
+clara e objetiva, além de permitir que os usuários realizem as ações desejadas de
+forma fácil e intuitiva.
+
+
+\chapter{Programação Orientada a Objetos}
+
+A programação orientada a objetos proporciona um software com uma interface
+atraente e fácil de usar. Ela utiliza conceitos do mundo real para representar
+objetos, tornando a compreensão e a modificação do sistema mais fácil. Dessa
+forma, a POO pode tornar a interface mais intuitiva para o usuário final. Essa
+abordagem é benéfica para o desenvolvimento, reutilização de código,
+encapsulamento e modularização, tornando essencial a utilização desses
+conceitos técnicos.
+
+No processo de criação de uma boa interface, é necessário entender alguns
+elementos essenciais para exibir e manipular objetos no sistema de forma clara.
+São eles as classes, que definem a estrutura do objeto, seus atributos e métodos,
+além da interação com o usuário por meio de uma interface gráfica. Alguns dos
+conceitos fundamentais da programação orientada a objetos são objetos, classes,
+herança e polimorfismo.
+
+Os objetos representam coisas reais ou abstratas que possuem atributos e
+métodos. Por exemplo, um computador é um objeto com atributos como "marca"
+e "modelo" e métodos como ligar, desligar, reiniciar e comandos. As classes
+definem a estrutura do objeto e contêm informações necessárias para criá-lo,
+como uma receita de bolo. A herança é responsável por "herdar" comportamentos
+de outra classe, permitindo que um objeto tenha atributos e métodos da classe pai
+e também adicionando características próprias. O polimorfismo ocorre quando
+objetos de diferentes classes fazem a mesma função, mas de uma forma diferente.
+
+Esses aspectos técnicos foram utilizados no código do projeto para garantir uma
+estrutura clara e organizada, afim de facilitar e dinamizar a experiência final do
+usuário. Neste trabalho, foi fundamental utilizar alguns conceitos, como a classe
+"AparelhoAudiovisual" contendo atributos como "marca" e "modelo", ou a classe
+"Projetor", que herda atributos e métodos da classe pai. Em resumo, a POO é
+fundamental para criar programas mais organizados, eficientes e fáceis de manter.
 
 % ----------------------------------------------------------
 % Finaliza a parte no bookmark do PDF
@@ -587,13 +863,22 @@ elementum}
 % ----------------------------------------------------------
 \phantompart
 
+\part{Conclusão}
+
 % ---
 % Conclusão
 % ---
 \chapter{Conclusão}
 % ---
 
-\lipsum[31-33]
+O colégio Vencer Sempre possuía um sistema antigo e pouco eficiente de
+gerenciamento dos equipamentos, portanto o sistema feito para a escola foi
+pensado não somente para facilitar sua distribuição como também para ser um
+agregador na educação dos alunos uma vez que seus professores conseguirão
+planejar melhor suas aulas, também foi pensado para garantir que as necessidades
+do cliente sejam atendidas.
+
+
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
@@ -606,73 +891,21 @@ elementum}
 % ----------------------------------------------------------
 \bibliography{abntex2-modelo-references}
 
-% ----------------------------------------------------------
-% Glossário
-% ----------------------------------------------------------
-%
-% Consulte o manual da classe abntex2 para orientações sobre o glossário.
-%
-%\glossary
-
-% ----------------------------------------------------------
-% Apêndices
-% ----------------------------------------------------------
-
-% ---
-% Inicia os apêndices
-% ---
-\begin{apendicesenv}
-
-% Imprime uma página indicando o início dos apêndices
-\partapendices
-
-% ----------------------------------------------------------
-\chapter{Quisque libero justo}
-% ----------------------------------------------------------
-
-\lipsum[50]
-
-% ----------------------------------------------------------
-\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-ac pretium ante justo a nulla curabitur tristique arcu eu metus}
-% ----------------------------------------------------------
-\lipsum[55-57]
-
-\end{apendicesenv}
-% ---
-
-
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-% ---
-% Inicia os anexos
-% ---
-\begin{anexosenv}
-
-% Imprime uma página indicando o início dos anexos
-\partanexos
-
-% ---
-\chapter{Morbi ultrices rutrum lorem.}
-% ---
-\lipsum[30]
-
-% ---
-\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
-parturient montes nascetur ridiculus mus}
-% ---
-
-\lipsum[31]
-
-% ---
-\chapter{Fusce facilisis lacinia dui}
-% ---
-
-\lipsum[32]
-
-\end{anexosenv}
+\begin{itemize}
+    \item Alura. (s.d.). POO: Programação Orientada a Objetos, 2023 \\
+	Disponível em: \url{https://www.alura.com.br/artigos/poo-programacao-orientada-aobjetos}
+    \item FERREIRA, J. (s.d.). Aula 4 - Interfaces. Disponível em:\\
+	\url{https://sites.google.com/site/anhangueraniteroipoo/aulas/aula-4---interfaces}
+    \item CODIFICAR. (s.d.). Requisitos Funcionais e Não Funcionais: o que são e como
+	identificá-los. Dísponivel em:\\ \url{https://codificar.com.br/requisitos-funcionais-naofuncionais/}
+	\item DEV MEDIA. Revista Engenharia de Software
+	\url{https://www.devmedia.com.br/introducaoa-engenharia-de-requisitos/8034}
+	\item REDEQUISITOS. Quais os tipos de Requisitos de Software? Sabe a diferença
+	entre eles?. Disponível em:\\
+	\url{http://rederequisitos.com.br/quais-os-tipos-derequisitos-desoftware-sabe-diferenca-entre-eles/}
+	\item REQUISITOS DE SISTEMA:\url{https://codificar.com.br/requisitos-funcionais-naofuncionais/#:~:text=Os%20requisitos%20funcionais%20descrevem%20o,qu}
+	
+\end{itemize}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
