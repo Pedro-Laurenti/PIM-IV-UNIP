@@ -80,15 +80,15 @@ professores e dos demais colaboradores que necessitem utilizar os recursos menci
       - [x]  Main
         - [x]  Empréstimos (data de entrega)
         - [x]  Adquirir novo (vitrine)
-        - [ ]  Perfil do usuário
-      - [ ]  Checkout
-    - [ ]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
+        - [x]  Perfil do usuário
+      - [x]  Checkout
+    - [x]  &nbsp; explicar em detalhes o funcionamento de cada tipo de entrada de dados processamento ou saída de informação;
 
 <br>
 
 1. Programação Orientada a Objetos I:
-    - [ ]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
-    - [ ]  &nbsp; Identificar estes elementos técnicos em seu sistema.
+    - [x]  &nbsp; Descrever tecnicamente os fundamentos acadêmicos sobre objetos, classes, herança e polimorfismo;
+    - [x]  &nbsp; Identificar estes elementos técnicos em seu sistema.
 
 <br>
 
@@ -298,8 +298,14 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
   - Fernando de Sampaio Steimback Vidal (RA: 0626729)
   - Larissa Tamires de Araujo Nascimento (RA: 0622906)
 
+# Leia aqui
+
 <div align="center">
 
 ![Este documento foi feito utilizando R Markdown.](https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png){width=20%}
+
+<br>
+
+Documentação seguindo ABNT postada <u>[Aqui](http://www.stockedu.orbytesistemas.com/pdf/)</u>
 
 </div>

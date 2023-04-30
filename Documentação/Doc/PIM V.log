@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  28 APR 2023 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  30 APR 2023 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -896,7 +896,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 No file abntex2-modelo-include-comandos.tex.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 511.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 508.
 (C:\MikTex\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -908,7 +908,7 @@ Underfull \vbox (badness 2503) has occurred while \output is active []
 
 
 ] [30]
-Overfull \hbox (38.05595pt too wide) in paragraph at lines 578--611
+Overfull \hbox (38.05595pt too wide) in paragraph at lines 575--608
  [][] 
  []
 
@@ -918,62 +918,62 @@ Underfull \vbox (badness 1107) has occurred while \output is active []
  [31
 
 ]
-Overfull \hbox (19.01897pt too wide) in paragraph at lines 628--638
+Overfull \hbox (19.01897pt too wide) in paragraph at lines 625--635
  [][] 
  []
 
 [32]
-Overfull \hbox (3.34833pt too wide) in paragraph at lines 653--688
+Overfull \hbox (3.34833pt too wide) in paragraph at lines 650--685
  [][] 
  []
 
 [33] [34] [35
 
 ] [36]
-<fig/print1-login.png, id=271, 1927.2pt x 1055.945pt>
+<fig/print1-login.png, id=269, 1927.2pt x 1055.945pt>
 File: fig/print1-login.png Graphic file (type png)
 <use fig/print1-login.png>
-Package pdftex.def Info: fig/print1-login.png  used on input line 728.
+Package pdftex.def Info: fig/print1-login.png  used on input line 725.
 (pdftex.def)             Requested size: 273.00278pt x 149.57143pt.
-<fig/Logo-do-projeto.png, id=272, 1757.56625pt x 702.625pt>
+<fig/Logo-do-projeto.png, id=270, 1757.56625pt x 702.625pt>
 File: fig/Logo-do-projeto.png Graphic file (type png)
 <use fig/Logo-do-projeto.png>
-Package pdftex.def Info: fig/Logo-do-projeto.png  used on input line 737.
+Package pdftex.def Info: fig/Logo-do-projeto.png  used on input line 734.
 (pdftex.def)             Requested size: 273.00278pt x 109.13089pt.
  [37
 
  <./fig/print1-login.png (PNG copy)> <./fig/Logo-do-projeto.png (PNG copy)>]
-<fig/print2-errologin.png, id=277, 1927.2pt x 1055.945pt>
+<fig/print2-errologin.png, id=276, 1927.2pt x 1055.945pt>
 File: fig/print2-errologin.png Graphic file (type png)
 <use fig/print2-errologin.png>
-Package pdftex.def Info: fig/print2-errologin.png  used on input line 751.
+Package pdftex.def Info: fig/print2-errologin.png  used on input line 748.
 (pdftex.def)             Requested size: 273.00278pt x 149.57143pt.
-<fig/print3-cadastro.png, id=278, 1927.2pt x 1055.945pt>
+<fig/print3-cadastro.png, id=277, 1927.2pt x 1055.945pt>
 File: fig/print3-cadastro.png Graphic file (type png)
 <use fig/print3-cadastro.png>
-Package pdftex.def Info: fig/print3-cadastro.png  used on input line 760.
+Package pdftex.def Info: fig/print3-cadastro.png  used on input line 757.
 (pdftex.def)             Requested size: 273.00278pt x 149.57143pt.
-<fig/print4-teladecarregamento.png, id=279, 1910.13625pt x 1072.005pt>
+<fig/print4-teladecarregamento.png, id=278, 1910.13625pt x 1072.005pt>
 File: fig/print4-teladecarregamento.png Graphic file (type png)
 <use fig/print4-teladecarregamento.png>
-Package pdftex.def Info: fig/print4-teladecarregamento.png  used on input line 777.
+Package pdftex.def Info: fig/print4-teladecarregamento.png  used on input line 774.
 (pdftex.def)             Requested size: 273.00278pt x 153.20395pt.
-<fig/print5-telaprincipal.png, id=280, 1917.1625pt x 2463.2025pt>
+<fig/print5-telaprincipal.png, id=279, 1917.1625pt x 2463.2025pt>
 File: fig/print5-telaprincipal.png Graphic file (type png)
 <use fig/print5-telaprincipal.png>
-Package pdftex.def Info: fig/print5-telaprincipal.png  used on input line 784.
+Package pdftex.def Info: fig/print5-telaprincipal.png  used on input line 781.
 (pdftex.def)             Requested size: 273.00278pt x 350.7469pt.
  [38 <./fig/print2-errologin.png (PNG copy)> <./fig/print3-cadastro.png (PNG copy)>]
-<fig/print6-responsividademain.png, id=288, 386.44376pt x 859.21pt>
+<fig/print6-responsividademain.png, id=287, 386.44376pt x 859.21pt>
 File: fig/print6-responsividademain.png Graphic file (type png)
 <use fig/print6-responsividademain.png>
-Package pdftex.def Info: fig/print6-responsividademain.png  used on input line 795.
+Package pdftex.def Info: fig/print6-responsividademain.png  used on input line 792.
 (pdftex.def)             Requested size: 181.99722pt x 404.64162pt.
  [39 <./fig/print4-teladecarregamento.png (PNG copy)> <./fig/print5-telaprincipal.png (PNG copy)>]
-<fig/print7-telaproduto.png, id=293, 1917.1625pt x 2815.51875pt>
+<fig/print7-telaproduto.png, id=292, 1917.1625pt x 2815.51875pt>
 File: fig/print7-telaproduto.png Graphic file (type png)
 <use fig/print7-telaproduto.png>
-Package pdftex.def Info: fig/print7-telaproduto.png  used on input line 810.
+Package pdftex.def Info: fig/print7-telaproduto.png  used on input line 807.
 (pdftex.def)             Requested size: 181.99722pt x 267.26225pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -996,17 +996,17 @@ bibitemlist
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 )
-Overfull \hbox (29.77083pt too wide) in paragraph at lines 895--897
+Overfull \hbox (29.77083pt too wide) in paragraph at lines 892--894
 \T1/lmr/m/n/12 (-20) Disponível em: [][]$<[]https : / / www . alura . com . br / artigos / poo-[]programacao-[]orientada-[]aobjetos>[]$[][] 
  []
 
 
-Overfull \hbox (52.8175pt too wide) in paragraph at lines 903--906
+Overfull \hbox (52.8175pt too wide) in paragraph at lines 900--903
 [][]$\T1/lmr/m/n/12 (-20) <[]http : / / rederequisitos . com . br / quais-[]os-[]tipos-[]derequisitos-[]desoftware-[]sabe-[]diferenca-[]entre-[]eles /
  []
 
 
-Overfull \hbox (39.10034pt too wide) in paragraph at lines 906--907
+Overfull \hbox (39.10034pt too wide) in paragraph at lines 903--904
 []\T1/lmr/m/n/12 (-20) REQUISITOS DE SIS-TEMA:[][]$<[]https : / / codi^^\car . com . br / requisitos-[]funcionais-[]naofuncionais /
  []
 
@@ -1028,17 +1028,17 @@ Package rerunfilecheck Info: File `"PIM V".brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18989 strings out of 476339
- 305652 string characters out of 5804534
+ 18988 strings out of 476339
+ 305641 string characters out of 5804534
  1862340 words of memory out of 5000000
  38811 multiletter control sequences out of 15000+600000
- 601019 words of font info for 161 fonts, out of 8000000 for 9000
+ 600928 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,90p,1191b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,90p,1191b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "PIM V.pdf" (51 pages, 4122854 bytes).
+Output written on "PIM V.pdf" (51 pages, 4122912 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
  53505 words of extra memory for PDF output out of 61914 (max. 10000000)
 

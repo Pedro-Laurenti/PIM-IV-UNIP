@@ -304,10 +304,16 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 <br>
 
+# Leia aqui
+
 <div align="center">
 
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
 Página feita com R Markdown e postada <u>[Aqui](https://www.stockedu.orbytesistemas.com/documentacao/)</u>
+
+<br>
+
+Documentação seguindo ABNT postada <u>[Aqui](http://www.stockedu.orbytesistemas.com/pdf/)</u>
 
 </div>
